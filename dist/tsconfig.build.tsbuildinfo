@@ -3549,7 +3549,7 @@
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644"
       },
       "../src/main.ts": {
-        "version": "bd7788d3b7d6d324de4e59903199d1d6869e52ed1defb1d1ecd35e948d502f0c",
+        "version": "0e90bcb52c80273ed19e57f3105d96cb0055aebc92bbcdc6f32fd839024866da",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
       },
       "../src/graphql/dto/courses/courseCategory.dto.ts": {
