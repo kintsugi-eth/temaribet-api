@@ -17,10 +17,14 @@ const graphql_2 = require("../../graphql");
 const services_1 = require("../services/services");
 const deleted_1 = require("../../graphql/models/deleted");
 const course_dto_1 = require("../../graphql/dto/courses/course.dto");
+const CourseLevel_1 = require("../../graphql/models/courses/CourseLevel");
+const courseCategory_1 = require("../../graphql/models/courses/courseCategory");
 let CourseResolver = class CourseResolver {
-    constructor(courseService, courseChapterService) {
+    constructor(courseService, courseChapterService, courseLevelService, courseCategoryService) {
         this.courseService = courseService;
         this.courseChapterService = courseChapterService;
+        this.courseLevelService = courseLevelService;
+        this.courseCategoryService = courseCategoryService;
     }
     courses() {
         return this.courseService.findAll();
@@ -39,6 +43,12 @@ let CourseResolver = class CourseResolver {
     }
     courseChapters(course) {
         return this.courseChapterService.findByCourseId(course._id);
+    }
+    courseLevel(course) {
+        return this.courseChapterService.findByCourseId(course.courseLevel);
+    }
+    courseCategory(course) {
+        return this.courseChapterService.findByCourseId(course.courseCategory);
     }
 };
 __decorate([
@@ -82,10 +92,26 @@ __decorate([
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", void 0)
 ], CourseResolver.prototype, "courseChapters", null);
+__decorate([
+    graphql_1.ResolveProperty(returns => CourseLevel_1.CourseLevel),
+    __param(0, graphql_1.Parent()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", void 0)
+], CourseResolver.prototype, "courseLevel", null);
+__decorate([
+    graphql_1.ResolveProperty(returns => courseCategory_1.CourseCategory),
+    __param(0, graphql_1.Parent()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", void 0)
+], CourseResolver.prototype, "courseCategory", null);
 CourseResolver = __decorate([
     graphql_1.Resolver(of => graphql_2.Course),
     __metadata("design:paramtypes", [services_1.CourseService,
-        services_1.CourseChapterService])
+        services_1.CourseChapterService,
+        services_1.CourseLevelService,
+        services_1.CourseCategoryService])
 ], CourseResolver);
 exports.CourseResolver = CourseResolver;
 //# sourceMappingURL=Course.resolver.js.map

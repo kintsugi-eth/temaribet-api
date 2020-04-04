@@ -25,6 +25,18 @@ __decorate([
     __metadata("design:type", String)
 ], CourseDto.prototype, "instructor", void 0);
 __decorate([
+    type_graphql_1.Field(),
+    __metadata("design:type", String)
+], CourseDto.prototype, "courseLevel", void 0);
+__decorate([
+    type_graphql_1.Field(),
+    __metadata("design:type", String)
+], CourseDto.prototype, "courseCategory", void 0);
+__decorate([
+    type_graphql_1.Field(returns => Number),
+    __metadata("design:type", Number)
+], CourseDto.prototype, "rate", void 0);
+__decorate([
     type_graphql_1.Field(returns => Number),
     __metadata("design:type", Number)
 ], CourseDto.prototype, "numOfChapters", void 0);

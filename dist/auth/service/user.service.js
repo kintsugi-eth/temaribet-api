@@ -30,7 +30,7 @@ let UserService = class UserService extends base_service_1.BaseService {
 };
 UserService = __decorate([
     common_1.Injectable(),
-    __param(0, mongoose_1.InjectModel('UserDto')),
+    __param(0, mongoose_1.InjectModel('User')),
     __metadata("design:paramtypes", [mongoose_2.Model])
 ], UserService);
 exports.UserService = UserService;

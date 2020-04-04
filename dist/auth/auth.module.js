@@ -32,7 +32,7 @@ AuthModule = __decorate([
                     expiresIn: 3600,
                 },
             }),
-            mongoose_1.MongooseModule.forFeature([{ name: 'UserDto', schema: schemas_1.userSchema }]),
+            mongoose_1.MongooseModule.forFeature([{ name: 'User', schema: schemas_1.userSchema }]),
         ],
         providers: [auth_service_1.AuthService, jwt_strategy_1.JwtStrategy, auth_resolver_1.AuthResolver, user_service_1.UserService],
         exports: [auth_service_1.AuthService, jwt_strategy_1.JwtStrategy, auth_resolver_1.AuthResolver],

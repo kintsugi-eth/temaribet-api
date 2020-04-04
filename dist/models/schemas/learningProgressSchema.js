@@ -9,7 +9,7 @@ exports.learningProgressSchema = new mongoose_1.Schema({
     },
     courseChapterContent: {
         type: mongoose_1.Schema.Types.ObjectId,
-        ref: 'CourseChapterContentDto',
+        ref: 'CourseChapterContent',
         required: true,
     },
     beginTimestamp: {

@@ -10,6 +10,8 @@ import { ILearningProgress } from '../../models/interfaces/ILearningProgress';
 import { IStudent } from '../../models/interfaces/IStudent';
 import { ICourseChapterContent } from '../../models/interfaces/ICourseChapterContent';
 import { IFeedback } from '../../models/interfaces/IFeedback';
+import { ICourseCategory } from '../../models/interfaces/ICourseCategory';
+import { ICourseLevel } from '../../models/interfaces/ICourseLevel';
 export declare class ContentTypeService extends BaseService {
     private readonly ContentTypeModel;
     constructor(ContentTypeModel: Model<IContentType>);
@@ -17,6 +19,14 @@ export declare class ContentTypeService extends BaseService {
 export declare class CourseService extends BaseService {
     private readonly courseModel;
     constructor(courseModel: Model<ICourse>);
+}
+export declare class CourseCategoryService extends BaseService {
+    private readonly courseCategoryModel;
+    constructor(courseCategoryModel: Model<ICourseCategory>);
+}
+export declare class CourseLevelService extends BaseService {
+    private readonly courseLevelModel;
+    constructor(courseLevelModel: Model<ICourseLevel>);
 }
 export declare class CourseChapterService extends BaseService {
     private readonly CourseChapterModel;

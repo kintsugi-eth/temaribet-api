@@ -24,7 +24,7 @@ let ContentTypeService = class ContentTypeService extends base_service_1.BaseSer
 };
 ContentTypeService = __decorate([
     common_1.Injectable(),
-    __param(0, mongoose_1.InjectModel('ContentTypeDto')),
+    __param(0, mongoose_1.InjectModel('ContentType')),
     __metadata("design:paramtypes", [mongoose_2.Model])
 ], ContentTypeService);
 exports.ContentTypeService = ContentTypeService;
@@ -36,10 +36,34 @@ let CourseService = class CourseService extends base_service_1.BaseService {
 };
 CourseService = __decorate([
     common_1.Injectable(),
-    __param(0, mongoose_1.InjectModel('CourseDto')),
+    __param(0, mongoose_1.InjectModel('Course')),
     __metadata("design:paramtypes", [mongoose_2.Model])
 ], CourseService);
 exports.CourseService = CourseService;
+let CourseCategoryService = class CourseCategoryService extends base_service_1.BaseService {
+    constructor(courseCategoryModel) {
+        super(courseCategoryModel);
+        this.courseCategoryModel = courseCategoryModel;
+    }
+};
+CourseCategoryService = __decorate([
+    common_1.Injectable(),
+    __param(0, mongoose_1.InjectModel('CourseCategory')),
+    __metadata("design:paramtypes", [mongoose_2.Model])
+], CourseCategoryService);
+exports.CourseCategoryService = CourseCategoryService;
+let CourseLevelService = class CourseLevelService extends base_service_1.BaseService {
+    constructor(courseLevelModel) {
+        super(courseLevelModel);
+        this.courseLevelModel = courseLevelModel;
+    }
+};
+CourseLevelService = __decorate([
+    common_1.Injectable(),
+    __param(0, mongoose_1.InjectModel('CourseLevel')),
+    __metadata("design:paramtypes", [mongoose_2.Model])
+], CourseLevelService);
+exports.CourseLevelService = CourseLevelService;
 let CourseChapterService = class CourseChapterService extends base_service_1.BaseService {
     constructor(CourseChapterModel) {
         super(CourseChapterModel);
@@ -51,7 +75,7 @@ let CourseChapterService = class CourseChapterService extends base_service_1.Bas
 };
 CourseChapterService = __decorate([
     common_1.Injectable(),
-    __param(0, mongoose_1.InjectModel('CourseChapterDto')),
+    __param(0, mongoose_1.InjectModel('CourseChapter')),
     __metadata("design:paramtypes", [mongoose_2.Model])
 ], CourseChapterService);
 exports.CourseChapterService = CourseChapterService;
@@ -66,7 +90,7 @@ let CourseChapterContentService = class CourseChapterContentService extends base
 };
 CourseChapterContentService = __decorate([
     common_1.Injectable(),
-    __param(0, mongoose_1.InjectModel('CourseChapterContentDto')),
+    __param(0, mongoose_1.InjectModel('CourseChapterContent')),
     __metadata("design:paramtypes", [mongoose_2.Model])
 ], CourseChapterContentService);
 exports.CourseChapterContentService = CourseChapterContentService;
@@ -90,7 +114,7 @@ let FeedbackService = class FeedbackService extends base_service_1.BaseService {
 };
 FeedbackService = __decorate([
     common_1.Injectable(),
-    __param(0, mongoose_1.InjectModel('FeedbackDto')),
+    __param(0, mongoose_1.InjectModel('Feedback')),
     __metadata("design:paramtypes", [mongoose_2.Model])
 ], FeedbackService);
 exports.FeedbackService = FeedbackService;
@@ -102,7 +126,7 @@ let InstructorService = class InstructorService extends base_service_1.BaseServi
 };
 InstructorService = __decorate([
     common_1.Injectable(),
-    __param(0, mongoose_1.InjectModel('InstructorDto')),
+    __param(0, mongoose_1.InjectModel('Instructor')),
     __metadata("design:paramtypes", [mongoose_2.Model])
 ], InstructorService);
 exports.InstructorService = InstructorService;
@@ -114,7 +138,7 @@ let LanguageService = class LanguageService extends base_service_1.BaseService {
 };
 LanguageService = __decorate([
     common_1.Injectable(),
-    __param(0, mongoose_1.InjectModel('LanguageDto')),
+    __param(0, mongoose_1.InjectModel('Language')),
     __metadata("design:paramtypes", [mongoose_2.Model])
 ], LanguageService);
 exports.LanguageService = LanguageService;
@@ -126,7 +150,7 @@ let LearningProgressService = class LearningProgressService extends base_service
 };
 LearningProgressService = __decorate([
     common_1.Injectable(),
-    __param(0, mongoose_1.InjectModel('LearningProgressDto')),
+    __param(0, mongoose_1.InjectModel('LearningProgress')),
     __metadata("design:paramtypes", [mongoose_2.Model])
 ], LearningProgressService);
 exports.LearningProgressService = LearningProgressService;
@@ -138,7 +162,7 @@ let StudentService = class StudentService extends base_service_1.BaseService {
 };
 StudentService = __decorate([
     common_1.Injectable(),
-    __param(0, mongoose_1.InjectModel('StudentDto')),
+    __param(0, mongoose_1.InjectModel('Student')),
     __metadata("design:paramtypes", [mongoose_2.Model])
 ], StudentService);
 exports.StudentService = StudentService;

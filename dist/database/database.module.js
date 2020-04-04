@@ -22,23 +22,27 @@ const Student_resolver_1 = require("../core/resolvers/Student.resolver");
 const User_resolver_1 = require("../core/resolvers/User.resolver");
 const services_1 = require("../core/services/services");
 const auth_1 = require("../auth");
+const courseLevelSchema_1 = require("../models/schemas/courseLevelSchema");
+const courseCategorySchema_1 = require("../models/schemas/courseCategorySchema");
 let DatabaseModule = class DatabaseModule {
 };
 DatabaseModule = __decorate([
     common_1.Module({
         imports: [
             mongoose_1.MongooseModule.forFeature([
-                { name: 'ContentTypeDto', schema: models_1.contentTypeSchema },
-                { name: 'CourseChapterContentDto', schema: models_1.courseChapterContentSchema },
-                { name: 'CourseChapterDto', schema: models_1.courseChapterSchema },
-                { name: 'CourseDto', schema: models_1.courseSchema },
+                { name: 'ContentType', schema: models_1.contentTypeSchema },
+                { name: 'CourseChapterContent', schema: models_1.courseChapterContentSchema },
+                { name: 'CourseChapter', schema: models_1.courseChapterSchema },
+                { name: 'Course', schema: models_1.courseSchema },
+                { name: 'CourseLevel', schema: courseLevelSchema_1.courseLevelSchema },
+                { name: 'CourseCategory', schema: courseCategorySchema_1.courseCategorySchema },
                 { name: 'Enrollment', schema: models_1.enrollmentSchema },
-                { name: 'FeedbackDto', schema: models_1.feedbackSchema },
-                { name: 'InstructorDto', schema: models_1.instructorSchema },
-                { name: 'LanguageDto', schema: models_1.languageSchema },
-                { name: 'LearningProgressDto', schema: models_1.learningProgressSchema },
-                { name: 'StudentDto', schema: models_1.studentSchema },
-                { name: 'UserDto', schema: models_1.userSchema },
+                { name: 'Feedback', schema: models_1.feedbackSchema },
+                { name: 'Instructor', schema: models_1.instructorSchema },
+                { name: 'Language', schema: models_1.languageSchema },
+                { name: 'LearningProgress', schema: models_1.learningProgressSchema },
+                { name: 'Student', schema: models_1.studentSchema },
+                { name: 'User', schema: models_1.userSchema },
             ]),
         ],
         providers: [
@@ -55,6 +59,8 @@ DatabaseModule = __decorate([
             User_resolver_1.UserResolver,
             services_1.ContentTypeService,
             services_1.CourseService,
+            services_1.CourseLevelService,
+            services_1.CourseCategoryService,
             services_1.CourseChapterService,
             services_1.CourseChapterContentService,
             services_1.EnrollmentService,

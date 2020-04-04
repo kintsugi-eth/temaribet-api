@@ -13,6 +13,8 @@ const base_1 = require("../../../shared/models/base");
 const type_graphql_1 = require("type-graphql");
 const language_1 = require("./language");
 const __1 = require("../..");
+const CourseLevel_1 = require("./CourseLevel");
+const courseCategory_1 = require("./courseCategory");
 let Course = class Course extends base_1.Base {
 };
 __decorate([
@@ -27,6 +29,18 @@ __decorate([
     type_graphql_1.Field(returns => __1.Instructor),
     __metadata("design:type", __1.Instructor)
 ], Course.prototype, "instructor", void 0);
+__decorate([
+    type_graphql_1.Field(returns => CourseLevel_1.CourseLevel),
+    __metadata("design:type", CourseLevel_1.CourseLevel)
+], Course.prototype, "courseLevel", void 0);
+__decorate([
+    type_graphql_1.Field(returns => courseCategory_1.CourseCategory),
+    __metadata("design:type", courseCategory_1.CourseCategory)
+], Course.prototype, "courseCategory", void 0);
+__decorate([
+    type_graphql_1.Field(returns => Number),
+    __metadata("design:type", Number)
+], Course.prototype, "rate", void 0);
 __decorate([
     type_graphql_1.Field(returns => Number),
     __metadata("design:type", Number)

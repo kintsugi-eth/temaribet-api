@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose_1 = require("mongoose");
 exports.instructorSchema = new mongoose_1.Schema({
-    user: { type: mongoose_1.Schema.Types.ObjectId, ref: 'UserDto', required: true },
+    user: { type: mongoose_1.Schema.Types.ObjectId, ref: 'User', required: true },
     qualification: { type: String, required: true },
     introductionBrief: { type: String },
     image: { type: String },

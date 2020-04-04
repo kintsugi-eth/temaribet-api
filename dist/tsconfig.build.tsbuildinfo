@@ -3157,7 +3157,7 @@
         "signature": "0776ca6920f966386a0412fe0c8642279747f46db0f72215832673fd5896b2a7"
       },
       "../src/auth/service/user.service.ts": {
-        "version": "5dd833f17b02ae17c7ee8fd9b1c8d859d443894ae40a06ff98a571eeb0ff9f7a",
+        "version": "6339281c747415408716fdd75ceb5d76bc153725d0cee1f05598fd6aa09494b3",
         "signature": "45763a5c681a97d80a7f653e298a82ef68c292c95639d5f8858194e9f7b0513a"
       },
       "../src/auth/jwt-payload.interface.ts": {
@@ -3272,9 +3272,17 @@
         "version": "5c9a8f8ff36869795319669efbef8a25ae3a991f78f3c0f9e0f77577bcc18c6f",
         "signature": "f270afc7ee4e707e38ea2606d21c13208ee0ded2934516d9ec7a8a34f6b176de"
       },
+      "../src/graphql/models/courses/CourseLevel.ts": {
+        "version": "f30a4010719a7dbc4f8a48bf3994cc719d103407bd08d62c22d522bbe99825f4",
+        "signature": "69380552d589be8292562c364b4350644243c1d1c181602c8b336ca1f0ca47cf"
+      },
+      "../src/graphql/models/courses/courseCategory.ts": {
+        "version": "49d642cbf1be4a52578bdea238aac00ceb1a19f1d47126c89087bb7526a899e6",
+        "signature": "afb5f81feda2ae0b3d2d7aca7202381fac3f4bca70023c109b4e18069b69cc05"
+      },
       "../src/graphql/models/courses/course.ts": {
-        "version": "f9ea9ef4de7d419c2f8a0adc99cad7cd780337238060e95357db74b57a4beff7",
-        "signature": "13c3d650ceaa4e3eb9df5fa6cc2fa897e1082fc275bf8545ff9a70108f725e96"
+        "version": "b1e8e6d0e3b68b1d256a6abee7b8efe624438ead8973f72557eea84c99191cee",
+        "signature": "6acd2cc4aa3b6f7c0652931d909901c0defcc65fdc32e252ff53edca43125ac4"
       },
       "../src/graphql/models/courses/courseChapter.ts": {
         "version": "06bd2ea53db28f807f1f995c867449ff25b3b05c7c0c3c34066fba0dd798a62a",
@@ -3321,19 +3329,19 @@
         "signature": "b9a44e85b7effa4deab4006e1f63190b970cd75d012a01e53b90f8dd83a8aa14"
       },
       "../src/models/schemas/courseChapterContentSchema.ts": {
-        "version": "bf143ce937b4d93f6349116b0f4975bd0a63a29e10275a28f5c50844130dd91e",
+        "version": "f10e66a7d3dc741970e598f5772bb33c8f433a78966bbe4a242b9daa6296f0e5",
         "signature": "8113bf27b7ae22702df6210081a4013d328fe7025d53e3707cf433ec60518220"
       },
       "../src/models/schemas/courseChapterSchema.ts": {
-        "version": "860a4d9bbf6fb28cf9b58e67aad8a458da79ab478f6854e317c495e26475a810",
+        "version": "c75e0cf8d68db0272b3a01e902b74edc8a5d6c6bbb34e23e62c21bdd61af03ae",
         "signature": "30e44ca2ee02a806082c32506a032c35302163474887a954b7ba7c5abdd20270"
       },
       "../src/models/schemas/courseSchema.ts": {
-        "version": "3454af1eef482cfe2daeed160dadab1cc2ca92f9e0984329fc3374ec2ffd9fcf",
+        "version": "6924c9fe2eb327a4383d40a4caeadd8d6cc5860a11f3c99c8aef10d69f911579",
         "signature": "b759d840558a9c237ab89eee44aeca7a4f652eb54b95468247031082489cc21e"
       },
       "../src/models/schemas/enrollmentSchema.ts": {
-        "version": "0491140c09ca8e06c0af6b1f8f190208ae49486fea919f70f094d8735b236a35",
+        "version": "c9653b4a601936c93ba75471857613892e9c9259e11db14d093798e5137e9626",
         "signature": "2b8e3c25385a76a134da4aface0cbbfd94567c8088eb0b367b0fc4181db918f1"
       },
       "../src/models/schemas/feedbackSchema.ts": {
@@ -3341,7 +3349,7 @@
         "signature": "1bba4aa75e802e956eb1e9f57f85e083491869e0ab58b1a0cc37fe95a5ee103b"
       },
       "../src/models/schemas/instructorSchema.ts": {
-        "version": "ed70d62c69cf4ea75834a2494b4a085f8bc9db4f62fb82e03ec09072c3f2395f",
+        "version": "e14c784d9201e2a68cd7d8dc658ad6a108c9447c0465d27a00484ecbf0717eb6",
         "signature": "0c74a6ed48146f6933ec7c2a209aa373dc8f94fcdf0909c3f8da37156408f1ff"
       },
       "../src/models/schemas/languageSchema.ts": {
@@ -3349,11 +3357,11 @@
         "signature": "540fc7cd2dc912d1915ee6d1e67f6aa96fb97830c6b02ed1c791a925f0214077"
       },
       "../src/models/schemas/learningProgressSchema.ts": {
-        "version": "c87d09152bb71a606a2d000144da1e001a9f4eaa080592a259543fc6986af320",
+        "version": "921207a5ba4c3f97e13b86260211c22fd8c0cb6b66985c2b8802552272ee3539",
         "signature": "b866c871ad625346f4a72ef04bdaa83f7541d70f8dc0ef71519d89a3acf641c7"
       },
       "../src/models/schemas/studentSchema.ts": {
-        "version": "2a8ec1d7cda8d8cd39bf81b8482ad0626d334cf8f1f3fb76724b2de77b22c3cf",
+        "version": "daadd07561ca86757872fc6250a0d3be45a6417ded02e74ffebc8457440a362a",
         "signature": "036852a0fd6df473783b093fdc42410c85de87417e9c4a6db787fc9f9a2b177e"
       },
       "../src/models/schemas/userSchema.ts": {
@@ -3365,7 +3373,7 @@
         "signature": "1844d8ca089c8576bbd98e3efdb96be533cad8cee9723bb18d4f3d5551c1d191"
       },
       "../src/auth/auth.module.ts": {
-        "version": "08bda46638d8c1120502bbf869f7d5264b0c2e545ce8e67f4bc9dcef63cc0b27",
+        "version": "1b20ef56527988fd1974b64412a9ea8d28c5c9b055efd502bd5440e75f491966",
         "signature": "a28b5c0c372fb375910b3fe3c3ce4331509bc18ccef7cc39c9ee9d8daf8225d1"
       },
       "../src/auth/index.ts": {
@@ -3385,8 +3393,8 @@
         "signature": "9d50b5ee313cd1dbdb20f0886ba6e14f6f7b7c82125f0fd8b28475f01e7548df"
       },
       "../src/models/interfaces/ICourse.ts": {
-        "version": "17918de22b35461deaa72e80daea18e31f7c2cd4172bf4c35bc072280c28f268",
-        "signature": "151d7b1dc4127f9e08473a8d4f63524b24b284f7056bf7fe2c75c2c89d17f6e7"
+        "version": "fcd784da058cd9dfd3399631142b5c798a48a5935f9285a3e50003b9ce3aa09a",
+        "signature": "25eb9346707e2354ca0d3e491fa301a2abe007b83c7924d61919d91502b8ee8a"
       },
       "../src/models/interfaces/ICourseChapter.ts": {
         "version": "46d82a1e5192b449528e6d5e7c3adb17ab91e86cbd4b09fdba358fbd437aefdc",
@@ -3420,9 +3428,17 @@
         "version": "746f672cb24c56c17ec6b8284973237139b8f9bd413b9d5a8209489dccdf15e5",
         "signature": "bab357e0e5d08f725eae2175f338da377188e608242b3e68298c8567469742fb"
       },
+      "../src/models/interfaces/ICourseCategory.ts": {
+        "version": "cf712556dfc85da71821172bdb5447306df8abe49a8507129416bd90cf90ed2d",
+        "signature": "a914ce92fda5aa8ba1d6cfc9a6fd0cba7317b25aeeddb31235669bb11d7f86c0"
+      },
+      "../src/models/interfaces/ICourseLevel.ts": {
+        "version": "84f57899528bbb3be22887de70b11e4f9ccaa86377f3529d7501d3804601736d",
+        "signature": "fe8dc140fcd9025d05be83163acd8e78f3a79f8ce4e8728ca455b392474d3836"
+      },
       "../src/core/services/services.ts": {
-        "version": "c4dd2f4f70aad1dd23f59953253d9a6a8ea1d792cc45eeefe4841202fbf9e571",
-        "signature": "20b65a0450beb89650f146aacab78346323ff82433d045b9dbfec5a700264ba1"
+        "version": "82a04a9ac36e0ccd588b93e644909852bb05f6caef862fa4465434e048e792ce",
+        "signature": "6bcf215d92ab9eec257c2034e0cc06b0f5e00dd0ce142afd8a75484d7a2718c5"
       },
       "../src/graphql/models/deleted.ts": {
         "version": "4d0b76d28b2e1e977a286326d1abdec8ef65d45428fca34198fdb5501a397d37",
@@ -3437,12 +3453,12 @@
         "signature": "b482606aceb554dd8cbccccbd19791f73601e1d07e8d60b3e2f12d1b2ebed8ca"
       },
       "../src/graphql/dto/courses/course.dto.ts": {
-        "version": "cdb7f35dc09144f495d45908ddf122d82f16b2a4aa415b9aae2a3483d831a335",
-        "signature": "858a9352b20d09430b0096dec7b625ec2eb95162c22ff177867ee6b1591dfafe"
+        "version": "06f46c4a88fc2d999ae9163c28bfe96a0940335e84ad5d7df7d55b25810588b4",
+        "signature": "0ca3b7856d05e5cf66a1ba29ed456c7d5884a1a7f07b2fd6e80a774a297eb299"
       },
       "../src/core/resolvers/Course.resolver.ts": {
-        "version": "6d421c8f6d28a1907d68bf408e01f8e7b089af9443f07d30e0a1e3746966c3a8",
-        "signature": "8c4cae665fefe16cd589299f607935d3959445a28b9173781c42fbfd062ff9c3"
+        "version": "ac4ee46be1a59082fe19559cc6e9bef04bc9578981b6190708d27c38868e1ecf",
+        "signature": "01f407e42af4b4d4d6dd36cc71bb4161955187d7c2f96802d7c408fb97f5ee0b"
       },
       "../src/graphql/dto/courses/courseChapter.dto.ts": {
         "version": "6584e83c01b77c4a3698b59473bd0ba82a866450fa2379d6d817f01ed6619f2a",
@@ -3516,8 +3532,16 @@
         "version": "b284d821ff57577f7d4a6224f62f2af28c13b0076b03e72a00f198fe1158ea7a",
         "signature": "7e4bba591ad2f95292eb4736d0fa0c67aee05aa6c7b43406f3c0e17fcbe34d3c"
       },
+      "../src/models/schemas/courseLevelSchema.ts": {
+        "version": "761470026f7b110238a6c589c87538426c0cdba56cfac124e26cabd9fb29b643",
+        "signature": "81766e280648f9ec604b447e4318166680b13713b38c2536663bf51405d7bfcb"
+      },
+      "../src/models/schemas/courseCategorySchema.ts": {
+        "version": "7ce94ff93a358ab316b1cf8913d9038d683fc45d2718e305fc9cf7871ea5ac71",
+        "signature": "31112578faa81509879e0cad97b7a8cf31b4c0e40afbd96575f436f8069f82f9"
+      },
       "../src/database/database.module.ts": {
-        "version": "b43de95276d06425ab84fe049601a408f3f178cfcd70670bc90c8d64493c92b4",
+        "version": "d0cad6cb9ebd163fb609e602ffdfb53673f99168b7122bfe7e1f7c898903f3d0",
         "signature": "a7ad670f373dd5665c73c7dc09a8e28b976a63bd7ed08def7c1c13456e87d3dc"
       },
       "../src/app.module.ts": {
@@ -3525,8 +3549,24 @@
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644"
       },
       "../src/main.ts": {
-        "version": "74543fd16713973129fef59f47ac7c7861c13ada0a29e79aebcfd15bb1b03bb7",
+        "version": "bd7788d3b7d6d324de4e59903199d1d6869e52ed1defb1d1ecd35e948d502f0c",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+      },
+      "../src/graphql/dto/courses/courseCategory.dto.ts": {
+        "version": "5044e5fb89c2ff80d92082f9e01d6072cb9016a5c2aaf5d81c4ee601b1690cf5",
+        "signature": "b707bc06ba33abdc088f86956d6997fad481fbe49477409e13870463ad9acf20"
+      },
+      "../src/core/resolvers/CourseCategory.resolver.ts": {
+        "version": "bc34c917cb684c6527cd5ad0c8ff9fdf9c5748932c296bb51556e244edf8994b",
+        "signature": "b6d2ac911e96b3e43bc631a8373c8493dde6a79c42d8b0b81f362825f7126af0"
+      },
+      "../src/graphql/dto/courses/courseLevel.dto.ts": {
+        "version": "b08e577ff9de39befb02adb79b8273b873f3e10b424d006db8327ada4173a0ce",
+        "signature": "47b141847c9b8da1d622847014b493e8f641b50930a204b3c0f26a16504551ca"
+      },
+      "../src/core/resolvers/CourseLevel.resolver.ts": {
+        "version": "2b6c10382af9bb4546cfc00885eea031dfa6cf62bd5f1752c413ffa20dfe9001",
+        "signature": "30706553471efd2747bd9707f06c20542a78f09f7867c58aa01db2e385c23a2d"
       },
       "../src/graphql/models/queston and answer/question.ts": {
         "version": "8057c08ee7288fc743c5f789363860a19aa31ac86a8c50f2bd9f80d0635ed4cb",
@@ -10563,11 +10603,27 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../src/graphql/models/courses/CourseLevel.ts": [
+        "../node_modules/type-graphql/dist/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/graphql/models/courses/courseCategory.ts": [
+        "../node_modules/type-graphql/dist/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../src/graphql/models/courses/course.ts": [
         "../src/shared/models/base.ts",
         "../node_modules/type-graphql/dist/index.d.ts",
         "../src/graphql/models/courses/language.ts",
         "../src/graphql/index.ts",
+        "../src/graphql/models/courses/CourseLevel.ts",
+        "../src/graphql/models/courses/courseCategory.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -10889,6 +10945,20 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../src/models/interfaces/ICourseCategory.ts": [
+        "../src/shared/interfaces/ibaseModel.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/models/interfaces/ICourseLevel.ts": [
+        "../src/shared/interfaces/ibaseModel.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../src/core/services/services.ts": [
         "../src/shared/base.service.ts",
         "../node_modules/@nestjs/mongoose/index.d.ts",
@@ -10904,6 +10974,8 @@
         "../src/models/interfaces/ICourseChapterContent.ts",
         "../node_modules/@nestjs/common/index.d.ts",
         "../src/models/interfaces/IFeedback.ts",
+        "../src/models/interfaces/ICourseCategory.ts",
+        "../src/models/interfaces/ICourseLevel.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -10950,6 +11022,8 @@
         "../src/graphql/models/deleted.ts",
         "../src/graphql/dto/courses/course.dto.ts",
         "../src/models/interfaces/ICourse.ts",
+        "../src/graphql/models/courses/CourseLevel.ts",
+        "../src/graphql/models/courses/courseCategory.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -11131,6 +11205,20 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../src/models/schemas/courseLevelSchema.ts": [
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/models/schemas/courseCategorySchema.ts": [
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../src/database/database.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/mongoose/index.d.ts",
@@ -11150,6 +11238,8 @@
         "../src/core/resolvers/User.resolver.ts",
         "../src/core/services/services.ts",
         "../src/auth/index.ts",
+        "../src/models/schemas/courseLevelSchema.ts",
+        "../src/models/schemas/courseCategorySchema.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -11175,6 +11265,44 @@
         "../node_modules/@nestjs/core/index.d.ts",
         "../src/app.module.ts",
         "../node_modules/@types/body-parser/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/graphql/dto/courses/courseCategory.dto.ts": [
+        "../src/graphql/models/courses/courseCategory.ts",
+        "../node_modules/type-graphql/dist/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/core/resolvers/CourseCategory.resolver.ts": [
+        "../node_modules/@nestjs/graphql/index.d.ts",
+        "../src/graphql/models/deleted.ts",
+        "../src/graphql/models/courses/courseCategory.ts",
+        "../src/graphql/dto/courses/courseCategory.dto.ts",
+        "../src/core/services/services.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/graphql/dto/courses/courseLevel.dto.ts": [
+        "../node_modules/type-graphql/dist/index.d.ts",
+        "../src/graphql/models/courses/CourseLevel.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/core/resolvers/CourseLevel.resolver.ts": [
+        "../node_modules/@nestjs/graphql/index.d.ts",
+        "../src/graphql/models/deleted.ts",
+        "../src/core/services/services.ts",
+        "../src/graphql/models/courses/CourseLevel.ts",
+        "../src/graphql/dto/courses/courseLevel.dto.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -11741,7 +11869,19 @@
         "../src/models/interfaces/ILearningProgress.ts",
         "../src/models/interfaces/IStudent.ts",
         "../src/models/interfaces/ICourseChapterContent.ts",
-        "../src/models/interfaces/IFeedback.ts"
+        "../src/models/interfaces/IFeedback.ts",
+        "../src/models/interfaces/ICourseCategory.ts",
+        "../src/models/interfaces/ICourseLevel.ts"
+      ],
+      "../src/core/resolvers/CourseLevel.resolver.ts": [
+        "../src/core/services/services.ts",
+        "../src/graphql/dto/courses/courseLevel.dto.ts",
+        "../src/shared/interfaces/ibaseModel.ts"
+      ],
+      "../src/core/resolvers/CourseCategory.resolver.ts": [
+        "../src/graphql/dto/courses/courseCategory.dto.ts",
+        "../src/core/services/services.ts",
+        "../src/shared/interfaces/ibaseModel.ts"
       ],
       "../src/core/resolvers/Student.resolver.ts": [
         "../src/core/services/services.ts",
@@ -14190,6 +14330,12 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../src/graphql/dto/courses/courseLevel.dto.ts": [
+        "../src/graphql/models/courses/CourseLevel.ts"
+      ],
+      "../src/graphql/dto/courses/courseCategory.dto.ts": [
+        "../src/graphql/models/courses/courseCategory.ts"
+      ],
       "../src/graphql/models/feedback submission/feedback.ts": [
         "../src/shared/models/base.ts",
         "../src/graphql/index.ts"
@@ -14218,7 +14364,9 @@
       "../src/graphql/models/courses/course.ts": [
         "../src/shared/models/base.ts",
         "../src/graphql/models/courses/language.ts",
-        "../src/graphql/index.ts"
+        "../src/graphql/index.ts",
+        "../src/graphql/models/courses/CourseLevel.ts",
+        "../src/graphql/models/courses/courseCategory.ts"
       ],
       "../src/graphql/models/courses/courseChapter.ts": [
         "../src/shared/models/base.ts",
@@ -14417,6 +14565,12 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../src/models/schemas/courseCategorySchema.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/models/schemas/courseLevelSchema.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
       "../src/models/interfaces/ICourseChapter.ts": [
         "../src/shared/interfaces/ibaseModel.ts"
       ],
@@ -14472,6 +14626,12 @@
       ],
       "../src/shared/interfaces/ibaseModel.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/models/interfaces/ICourseLevel.ts": [
+        "../src/shared/interfaces/ibaseModel.ts"
+      ],
+      "../src/models/interfaces/ICourseCategory.ts": [
+        "../src/shared/interfaces/ibaseModel.ts"
       ],
       "../src/models/interfaces/IFeedback.ts": [
         "../src/shared/interfaces/ibaseModel.ts"
