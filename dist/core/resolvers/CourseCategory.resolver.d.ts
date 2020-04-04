@@ -3,9 +3,9 @@ import { CourseCategoryService } from '../services/services';
 export declare class CourseCategoryResolver {
     private readonly courseCategoryService;
     constructor(courseCategoryService: CourseCategoryService);
-    courses(): Promise<import("../../shared/interfaces/ibaseModel").IbaseModel[]>;
-    course(id: string): Promise<import("../../shared/interfaces/ibaseModel").IbaseModel>;
-    createCourse(courseCategoryInput: CourseCategoryDto): Promise<import("../../shared/interfaces/ibaseModel").IbaseModel>;
-    updateCourse(id: string, courseCategoryInput: CourseCategoryDto): Promise<import("../../shared/interfaces/ibaseModel").IbaseModel>;
+    courseCategories(): Promise<import("../../shared/interfaces/ibaseModel").IbaseModel[]>;
+    courseCategory(id: string): Promise<import("../../shared/interfaces/ibaseModel").IbaseModel>;
+    createCourseCategory(courseCategoryInput: CourseCategoryDto): Promise<import("../../shared/interfaces/ibaseModel").IbaseModel>;
+    updateCourseCategory(id: string, courseCategoryInput: CourseCategoryDto): Promise<import("../../shared/interfaces/ibaseModel").IbaseModel>;
     deleteCourse(id: string): Promise<any>;
 }

@@ -21,16 +21,16 @@ let CourseCategoryResolver = class CourseCategoryResolver {
     constructor(courseCategoryService) {
         this.courseCategoryService = courseCategoryService;
     }
-    courses() {
+    courseCategories() {
         return this.courseCategoryService.findAll();
     }
-    course(id) {
+    courseCategory(id) {
         return this.courseCategoryService.findOne(id);
     }
-    createCourse(courseCategoryInput) {
+    createCourseCategory(courseCategoryInput) {
         return this.courseCategoryService.createOne(courseCategoryInput);
     }
-    updateCourse(id, courseCategoryInput) {
+    updateCourseCategory(id, courseCategoryInput) {
         return this.courseCategoryService.updateOne(id, courseCategoryInput);
     }
     deleteCourse(id) {
@@ -42,28 +42,28 @@ __decorate([
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", void 0)
-], CourseCategoryResolver.prototype, "courses", null);
+], CourseCategoryResolver.prototype, "courseCategories", null);
 __decorate([
     graphql_1.Query(returns => courseCategory_1.CourseCategory),
     __param(0, graphql_1.Args('id')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", void 0)
-], CourseCategoryResolver.prototype, "course", null);
+], CourseCategoryResolver.prototype, "courseCategory", null);
 __decorate([
     graphql_1.Mutation(returns => courseCategory_1.CourseCategory),
     __param(0, graphql_1.Args('courseCategoryInput')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [courseCategory_dto_1.CourseCategoryDto]),
     __metadata("design:returntype", void 0)
-], CourseCategoryResolver.prototype, "createCourse", null);
+], CourseCategoryResolver.prototype, "createCourseCategory", null);
 __decorate([
     graphql_1.Mutation(returns => courseCategory_1.CourseCategory),
     __param(0, graphql_1.Args('id')), __param(1, graphql_1.Args('courseCategoryInput')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String, courseCategory_dto_1.CourseCategoryDto]),
     __metadata("design:returntype", void 0)
-], CourseCategoryResolver.prototype, "updateCourse", null);
+], CourseCategoryResolver.prototype, "updateCourseCategory", null);
 __decorate([
     graphql_1.Mutation(returns => deleted_1.Deleted),
     __param(0, graphql_1.Args('id')),

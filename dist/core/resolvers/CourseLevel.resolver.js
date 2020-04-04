@@ -21,16 +21,16 @@ let CourseCategoryResolver = class CourseCategoryResolver {
     constructor(courseLevelService) {
         this.courseLevelService = courseLevelService;
     }
-    courses() {
+    courseLevels() {
         return this.courseLevelService.findAll();
     }
-    course(id) {
+    courseLevel(id) {
         return this.courseLevelService.findOne(id);
     }
-    createCourse(courseLevelInput) {
+    createCourseLevel(courseLevelInput) {
         return this.courseLevelService.createOne(courseLevelInput);
     }
-    updateCourse(id, courseLevelInput) {
+    updateCourseLevel(id, courseLevelInput) {
         return this.courseLevelService.updateOne(id, courseLevelInput);
     }
     deleteCourse(id) {
@@ -42,28 +42,28 @@ __decorate([
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", void 0)
-], CourseCategoryResolver.prototype, "courses", null);
+], CourseCategoryResolver.prototype, "courseLevels", null);
 __decorate([
     graphql_1.Query(returns => CourseLevel_1.CourseLevel),
     __param(0, graphql_1.Args('id')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", void 0)
-], CourseCategoryResolver.prototype, "course", null);
+], CourseCategoryResolver.prototype, "courseLevel", null);
 __decorate([
     graphql_1.Mutation(returns => CourseLevel_1.CourseLevel),
     __param(0, graphql_1.Args('courseLevelInput')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [courseLevel_dto_1.CourseLevelDto]),
     __metadata("design:returntype", void 0)
-], CourseCategoryResolver.prototype, "createCourse", null);
+], CourseCategoryResolver.prototype, "createCourseLevel", null);
 __decorate([
     graphql_1.Mutation(returns => CourseLevel_1.CourseLevel),
     __param(0, graphql_1.Args('id')), __param(1, graphql_1.Args('courseLevelInput')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String, courseLevel_dto_1.CourseLevelDto]),
     __metadata("design:returntype", void 0)
-], CourseCategoryResolver.prototype, "updateCourse", null);
+], CourseCategoryResolver.prototype, "updateCourseLevel", null);
 __decorate([
     graphql_1.Mutation(returns => deleted_1.Deleted),
     __param(0, graphql_1.Args('id')),
