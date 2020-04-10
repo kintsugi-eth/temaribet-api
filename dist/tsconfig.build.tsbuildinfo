@@ -2701,7 +2701,7 @@
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
       },
       "../src/mongoose-config.service.ts": {
-        "version": "040b1980217b2a702a373ec9e6f06bcd9d594a484ec95f1994d59a227bb0cec4",
+        "version": "6f99c124cb62a51905f640fc297ff486dfcf0a890762a50b500bb7d7c6c6f849",
         "signature": "a218ea28203df7402a75143e9c0b5dcdcf976773e8e1fd21cde0d50f840f02fe"
       },
       "../src/modules/database/schema/schemas.ts": {
