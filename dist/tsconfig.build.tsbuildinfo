@@ -1118,8 +1118,8 @@
         "signature": "ba2a09adea4a585bea36a65fec00769d53bea7f498bee36c4c7f0e8b112e1113"
       },
       "../src/config/config.service.ts": {
-        "version": "191477f62ec1c14ffa005a5b6ea684db680c9cdb23ffd25e5979fb75014ceb2d",
-        "signature": "8f47251ecb52892beef7150b3ae731d4f8cf98878f5f4f690369b24e2dd35603"
+        "version": "49f52c50699523b87ea902faccee49ae22d1acb36ed868dc9ee8745a54a0f6ae",
+        "signature": "3457f65ce2c6c0cf90934f91a78b51ce37508a54e1479d580fb7472b95e5cdf1"
       },
       "../src/config/config.module.ts": {
         "version": "94f3ba580d5f2376dd4341cc15498a55dae9171be11e22b39891f4373f381d5a",

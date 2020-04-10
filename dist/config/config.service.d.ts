@@ -7,7 +7,6 @@ export declare class ConfigService {
     constructor(filePath: string);
     private validateInput;
     readonly databaseUrl: string;
-    readonly localDbUrl: string;
     readonly jwtSecret: string;
     static readonly jwtSercretKey: string;
 }
