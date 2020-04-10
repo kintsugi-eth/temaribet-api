@@ -14,8 +14,9 @@ const graphql_options_1 = require("./graphql.options");
 const mongoose_config_service_1 = require("./mongoose-config.service");
 const graphql_1 = require("@nestjs/graphql");
 const mongoose_1 = require("@nestjs/mongoose");
-const auth_1 = require("./auth");
-const database_module_1 = require("./database/database.module");
+const database_module_1 = require("./modules/database/database.module");
+const auth_1 = require("./modules/auth");
+const core_module_1 = require("./modules/core/core.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -24,8 +25,9 @@ AppModule = __decorate([
             mongoose_1.MongooseModule.forRootAsync({ useClass: mongoose_config_service_1.MongooseConfigService, imports: [config_module_1.ConfigModule] }),
             graphql_1.GraphQLModule.forRootAsync({ useClass: graphql_options_1.GraphqlOptions }),
             config_module_1.ConfigModule,
-            auth_1.AuthModule,
             database_module_1.DatabaseModule,
+            auth_1.AuthModule,
+            core_module_1.CoreModule,
         ],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService, mongoose_config_service_1.MongooseConfigService],

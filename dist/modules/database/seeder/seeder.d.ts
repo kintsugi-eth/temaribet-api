@@ -1,0 +1,33 @@
+import { CategoryService, ContentTypeService, CourseChapterContentService, CourseChapterService, CourseLevelService, CourseService, FeedbackService, FileService, InstructorService, LanguageService, RoleService, StudentService, UserService } from '..';
+export declare class Seeder {
+    private roleSerice;
+    private categoryService;
+    private contentTypeService;
+    private courseLevelService;
+    private languageService;
+    private userService;
+    private instructorService;
+    private studentService;
+    private enrollemntService;
+    private feedbackService;
+    private fileService;
+    private courseService;
+    private courseChapterService;
+    private courseChapterContentService;
+    constructor(roleSerice: RoleService, categoryService: CategoryService, contentTypeService: ContentTypeService, courseLevelService: CourseLevelService, languageService: LanguageService, userService: UserService, instructorService: InstructorService, studentService: StudentService, enrollemntService: StudentService, feedbackService: FeedbackService, fileService: FileService, courseService: CourseService, courseChapterService: CourseChapterService, courseChapterContentService: CourseChapterContentService);
+    getData(): any;
+    seedRoles(roles: any): void;
+    seedCategory(categories: any): void;
+    seedCourseLevel(courseLevels: any): void;
+    seedContentType(contentTypes: any): void;
+    seedLanguage(languages: any): void;
+    seedUser(users: any): void;
+    seedInstructor(instructors: any): void;
+    seedStudent(students: any): void;
+    seedEnrollment(enrollments: any): void;
+    seedFeedback(feedbacks: any): void;
+    seedFile(files: any): void;
+    seedCourse(courses: any): void;
+    seedCourseChapter(courseChapters: any): void;
+    seedCourseChapterContent(courseChapterContents: any): void;
+}

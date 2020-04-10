@@ -1118,8 +1118,8 @@
         "signature": "ba2a09adea4a585bea36a65fec00769d53bea7f498bee36c4c7f0e8b112e1113"
       },
       "../src/config/config.service.ts": {
-        "version": "dcfb9c8460adf3d3974be7256f5dfed0560a0b24b015d2f4982d26a50cfc95ed",
-        "signature": "3457f65ce2c6c0cf90934f91a78b51ce37508a54e1479d580fb7472b95e5cdf1"
+        "version": "191477f62ec1c14ffa005a5b6ea684db680c9cdb23ffd25e5979fb75014ceb2d",
+        "signature": "8f47251ecb52892beef7150b3ae731d4f8cf98878f5f4f690369b24e2dd35603"
       },
       "../src/config/config.module.ts": {
         "version": "94f3ba580d5f2376dd4341cc15498a55dae9171be11e22b39891f4373f381d5a",
@@ -2701,12 +2701,16 @@
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
       },
       "../src/mongoose-config.service.ts": {
-        "version": "6ee36542f469ed2650dbb8f86c04a003f52f28d194d9d0a52b1af82b22aa82af",
+        "version": "040b1980217b2a702a373ec9e6f06bcd9d594a484ec95f1994d59a227bb0cec4",
         "signature": "a218ea28203df7402a75143e9c0b5dcdcf976773e8e1fd21cde0d50f840f02fe"
       },
-      "../node_modules/@types/jsonwebtoken/index.d.ts": {
-        "version": "c6afd9a9be5f970240ff60b33f4a0262a5a8ea1cad4b6ea5b482d335639748f7",
-        "signature": "c6afd9a9be5f970240ff60b33f4a0262a5a8ea1cad4b6ea5b482d335639748f7"
+      "../src/modules/database/schema/schemas.ts": {
+        "version": "23944b3843be5c5cb402425f1e0dbb401072e57820524546a6c9d5775c033300",
+        "signature": "3f92f810167360be6881f8467526e7a41bcd4c1f0a5d5fc4f56a8f0e14f41e7f"
+      },
+      "../src/shared/interfaces/ibaseModel.ts": {
+        "version": "2186a56f04f39f54501f649ccf8bc5d171cf22dba38d067228dbe6426e7723aa",
+        "signature": "9f1d5cac444da1d55d96998ebff655c6e46faedb3ee1183586da94b6ef7319d5"
       },
       "../node_modules/class-validator/validation/ValidationError.d.ts": {
         "version": "8b5ad058f8dab857050fdbb092b9f1267d22641f0f746cd8a7abee85b48bb83a",
@@ -3128,22 +3132,6 @@
         "version": "575b8a73e314f733677c0aa7cdbd505a653d37684da24306b6110c6d9137e3ca",
         "signature": "575b8a73e314f733677c0aa7cdbd505a653d37684da24306b6110c6d9137e3ca"
       },
-      "../src/shared/dto/create/ createUser.dto.ts": {
-        "version": "3e37dccc14b2f275eb933eaab702b8269f1028d33fc45696d55f0bfc36aa615e",
-        "signature": "20f5c9e11be024ad5cd474a95f9b06c50b7aa976fb29a82ea38b748df2e0422b"
-      },
-      "../src/shared/interfaces/ibaseModel.ts": {
-        "version": "2186a56f04f39f54501f649ccf8bc5d171cf22dba38d067228dbe6426e7723aa",
-        "signature": "9f1d5cac444da1d55d96998ebff655c6e46faedb3ee1183586da94b6ef7319d5"
-      },
-      "../src/models/interfaces/iuser.ts": {
-        "version": "9dadcb76b007b0b450efe9a5f5a90ac9fd28ff2dfb073b78a80ec4226aa608f7",
-        "signature": "228e134e9487ab9bbc058e904fac549f07aa2b35664bcfbd3dd2a2a4c34b7347"
-      },
-      "../src/models/interfaces/index.ts": {
-        "version": "835e80db08f22cf0b061752cadd686d5ca07702087d5384aaa1c61fcf0401dc3",
-        "signature": "835e80db08f22cf0b061752cadd686d5ca07702087d5384aaa1c61fcf0401dc3"
-      },
       "../src/shared/args/base.arg.ts": {
         "version": "17136a412b4ccf12b4abb433c51278b26f069f72e5ba9e65d36ceeddb76f57f6",
         "signature": "1bf845412b9cbe8f15b5337973a65f488ddb65b8ead049fa7444253dbea19a69"
@@ -3156,17 +3144,41 @@
         "version": "dc17705de22dabd1641348e16344b93b29859fb1da6b4e42840cb18f6b60f845",
         "signature": "0776ca6920f966386a0412fe0c8642279747f46db0f72215832673fd5896b2a7"
       },
-      "../src/auth/service/user.service.ts": {
-        "version": "6339281c747415408716fdd75ceb5d76bc153725d0cee1f05598fd6aa09494b3",
-        "signature": "45763a5c681a97d80a7f653e298a82ef68c292c95639d5f8858194e9f7b0513a"
+      "../src/modules/database/interface/interfaces.ts": {
+        "version": "f893bfb916160071a8885fbfe2b202e6c5c05a21702ecc31a4b547be7fabe4d8",
+        "signature": "267537c852edf8af1eb140bbaaad6c83186926f46a017fac5b41aad88a196549"
       },
-      "../src/auth/jwt-payload.interface.ts": {
+      "../src/modules/database/seeder/seeder.ts": {
+        "version": "dd24495d514aca50b6a8a7c68515ee7b6cf7915a239b422b0f87f7f9e7f0d186",
+        "signature": "cef9d707a6355ab3ee5b0d2f5f34a3532ab4f10ff8189240d7ef01ad5cc006f7"
+      },
+      "../src/modules/database/index.ts": {
+        "version": "a2bd18f1f007a5dfdebb69ff99d351962d6bf7ce2a0ba438a2c90a2a64defa9c",
+        "signature": "a2bd18f1f007a5dfdebb69ff99d351962d6bf7ce2a0ba438a2c90a2a64defa9c"
+      },
+      "../src/modules/database/services/services.ts": {
+        "version": "23a56d281f1ea6e0d771bd89998056e6541e7d5f8098433ee98f5800b8f96d2d",
+        "signature": "0d6f638e547185db9e6068499b07b2b4baa94cd17e0a3a2c3594b25011d3918a"
+      },
+      "../src/modules/database/database.module.ts": {
+        "version": "a9276edd9709ff3f6e6b816677fecf3da99138815e21434f32d14fcabaea6c4a",
+        "signature": "a7ad670f373dd5665c73c7dc09a8e28b976a63bd7ed08def7c1c13456e87d3dc"
+      },
+      "../node_modules/@types/jsonwebtoken/index.d.ts": {
+        "version": "c6afd9a9be5f970240ff60b33f4a0262a5a8ea1cad4b6ea5b482d335639748f7",
+        "signature": "c6afd9a9be5f970240ff60b33f4a0262a5a8ea1cad4b6ea5b482d335639748f7"
+      },
+      "../src/modules/auth/jwt-payload.interface.ts": {
         "version": "25855ee0b594061957455bdb6b7bb4dd12e9c85e48bf71d9e7957e48ff8d25fc",
         "signature": "25855ee0b594061957455bdb6b7bb4dd12e9c85e48bf71d9e7957e48ff8d25fc"
       },
-      "../src/auth/service/auth.service.ts": {
-        "version": "ee8e4f1200be6092b44f6a183b64132fa7dd26cc16858894fad0acc99f95d9d7",
-        "signature": "85c61fa68f628568b0758a5c5a8e2b4e35bd1aa152edf66f1f23dd3e0c8f6f96"
+      "../src/shared/dto/create/ createUser.dto.ts": {
+        "version": "3e37dccc14b2f275eb933eaab702b8269f1028d33fc45696d55f0bfc36aa615e",
+        "signature": "20f5c9e11be024ad5cd474a95f9b06c50b7aa976fb29a82ea38b748df2e0422b"
+      },
+      "../src/modules/auth/service/auth.service.ts": {
+        "version": "8f1b3586d17da3b4f1fe6a462310acbb3020f802228dc3a10adee95c14e49783",
+        "signature": "c4ef5e1c3c81910b75157080dcfe1efb179536060bf343499e3b76cfe8ee5a04"
       },
       "../node_modules/@nestjs/jwt/dist/interfaces/jwt-module-options.interface.d.ts": {
         "version": "b0d13187d80ad7ba46537913f1458c4bd3778ffde916a4673c2df5f479c8be15",
@@ -3248,69 +3260,13 @@
         "version": "8586f9debb7f024abe8f2c6efeff637c613f46c81edba8562e04f516f6a95661",
         "signature": "7755473df2948c4800fdc1531bf0825b40628a815578daabf91f443c61742d66"
       },
-      "../src/shared/models/base.ts": {
-        "version": "3d6df71d3e4a12f02b46d478f8ffcaeaf0e11c366b19bef2ae4f30a8bfe1605d",
-        "signature": "0afe414edb7a182fdda4bb36f9c3c66f63adc9f14484286d19ad6f0d6de86858"
+      "../src/modules/core/graphql/types.ts": {
+        "version": "647772690e5fa08050be8208ba48925e3e3ea7037f37919db28b66feb905f53d",
+        "signature": "568a1e9af94150581af0a5c98fae7483706450a12d9180aacddc487b60ca1ec7"
       },
-      "../src/graphql/models/actors/user.ts": {
-        "version": "d2e02efc76f9a8a502e7cfa5694a180a43615f918ee6bfdcddcd17c98fd59068",
-        "signature": "c870bfc7daa74191530cd25282143f49ca14ff66c0099f54101581a383f700d7"
-      },
-      "../src/graphql/models/actors/instructor.ts": {
-        "version": "99da6f735c08d8f93fe5dc0a7683911170e6d72ca7d41c72859db8c5ea93e614",
-        "signature": "7c92134910ed9d706b5432b3547c49b527df86381daeff330d05bf31255a98d2"
-      },
-      "../src/graphql/models/actors/student.ts": {
-        "version": "f3501b04732ff6923d7fa7a6da9a32dea74005cb8c7555e3a42b4446c1b691eb",
-        "signature": "a74852f879c9292e9f1b94d7105e31506ad5d9bdbdcfc19a4893fbd20d1033b1"
-      },
-      "../src/graphql/models/courses/contentType.ts": {
-        "version": "98553002f71962bd8a52e2fe4d90274c42368c1c4fb8334c3b8ca87d6b999bb0",
-        "signature": "1e8adef378a4158c0f0fb86d9bfa14292cba344ca13799be7166060881848e99"
-      },
-      "../src/graphql/models/courses/language.ts": {
-        "version": "5c9a8f8ff36869795319669efbef8a25ae3a991f78f3c0f9e0f77577bcc18c6f",
-        "signature": "f270afc7ee4e707e38ea2606d21c13208ee0ded2934516d9ec7a8a34f6b176de"
-      },
-      "../src/graphql/models/courses/CourseLevel.ts": {
-        "version": "f30a4010719a7dbc4f8a48bf3994cc719d103407bd08d62c22d522bbe99825f4",
-        "signature": "69380552d589be8292562c364b4350644243c1d1c181602c8b336ca1f0ca47cf"
-      },
-      "../src/graphql/models/courses/courseCategory.ts": {
-        "version": "49d642cbf1be4a52578bdea238aac00ceb1a19f1d47126c89087bb7526a899e6",
-        "signature": "afb5f81feda2ae0b3d2d7aca7202381fac3f4bca70023c109b4e18069b69cc05"
-      },
-      "../src/graphql/models/courses/course.ts": {
-        "version": "b1e8e6d0e3b68b1d256a6abee7b8efe624438ead8973f72557eea84c99191cee",
-        "signature": "6acd2cc4aa3b6f7c0652931d909901c0defcc65fdc32e252ff53edca43125ac4"
-      },
-      "../src/graphql/models/courses/courseChapter.ts": {
-        "version": "06bd2ea53db28f807f1f995c867449ff25b3b05c7c0c3c34066fba0dd798a62a",
-        "signature": "99dbff25144bc631f499da732551833536f773eb425fa45376a4e1c2ef8e7f38"
-      },
-      "../src/graphql/models/courses/courseChapterContent.ts": {
-        "version": "94f45a67f9452809d8f328a8beefbf58b789be2e77532fd2310ecf6f687f3db6",
-        "signature": "b32987f8e207c3a9aadf3df0a0cbed7eec178b4d6c590a38deb1af90f945e5fc"
-      },
-      "../src/graphql/models/entrollment and progress/enrollement.ts": {
-        "version": "b322375078e9f2a3d9f7d39af31b75873ed10bac9185d6b2b3ba61b4fece7194",
-        "signature": "f9fc672264eedcf55327b092b4cafce62817b56c95caa0dda62a3733c9a76787"
-      },
-      "../src/graphql/models/entrollment and progress/learningProgress.ts": {
-        "version": "5c335b77709102d5c3654a8f6c74762b5cca1f47a641c09a274d5b12deb66722",
-        "signature": "18a097041e104c4836301216b27d2441af38ce0ca8cc02ef599561e41f16b7e9"
-      },
-      "../src/graphql/models/feedback submission/feedback.ts": {
-        "version": "65cf23861e45e68567c89dc36efcd871b3aa0f29cee30dcdb6e7affd25bbe8f9",
-        "signature": "c2e253f46bad1ea708399375cd48ee4b80c8e0f8197bcfcb9877eab404823cd6"
-      },
-      "../src/graphql/index.ts": {
-        "version": "9e79225b164407ce62b64d12791a517b80ed93287a7adfdefa356aa07ec8394d",
-        "signature": "d40195bb58ad3d772d47309569e7a56c6147807f56b8b8e2add7d7e952668acf"
-      },
-      "../src/auth/auth.resolver.ts": {
-        "version": "23ff62ae09180b2d6b6d3e2a9a59796e0fd708defa5d623107d4a9ebb7903baa",
-        "signature": "4617daba5a3d109ab3d9998b0e6874cce86524155bdcccd948f3fd3dde66d05d"
+      "../src/modules/auth/auth.resolver.ts": {
+        "version": "93683662291103ff8869d042fa628cb10388c3dfd019c8b88983ddb67e651aa7",
+        "signature": "784d647c0debf81652d04a4d8f1d2f525aa334eb87d05abcf13cc7beb61e30de"
       },
       "../node_modules/@types/passport-strategy/index.d.ts": {
         "version": "29d59e921bc723594bbfc98230d24f38f0d5a669f28fcf989b7468f4f95b7c52",
@@ -3320,257 +3276,97 @@
         "version": "d306be26f96b4bd9b279cd7da9d1355d5ce4060a2bb254489c1b95c87057eb38",
         "signature": "d306be26f96b4bd9b279cd7da9d1355d5ce4060a2bb254489c1b95c87057eb38"
       },
-      "../src/auth/jwt.strategy.ts": {
-        "version": "c21ec027d00e43a6543287a4971ddbe0c459ebaa673967ef8bba3a22260d3379",
-        "signature": "e79264a3ad399013c1bf040a23df84572f04744c1fff9a0b5f6ef82305bc6f48"
+      "../src/modules/auth/jwt.strategy.ts": {
+        "version": "6646afc36eb1489d2119916c9430238dd23791b0c328045f54f01b8fa06f4901",
+        "signature": "609abda6120206a7a1e107b0c7a46257e8d7151673a3a39b0cfb985cc692c611"
       },
-      "../src/models/schemas/contentTypeSchema.ts": {
-        "version": "eb72abfd7c8d0ee75e92f632de53d291a19db50358635ea70add92bafa58fa58",
-        "signature": "b9a44e85b7effa4deab4006e1f63190b970cd75d012a01e53b90f8dd83a8aa14"
-      },
-      "../src/models/schemas/courseChapterContentSchema.ts": {
-        "version": "f10e66a7d3dc741970e598f5772bb33c8f433a78966bbe4a242b9daa6296f0e5",
-        "signature": "8113bf27b7ae22702df6210081a4013d328fe7025d53e3707cf433ec60518220"
-      },
-      "../src/models/schemas/courseChapterSchema.ts": {
-        "version": "c75e0cf8d68db0272b3a01e902b74edc8a5d6c6bbb34e23e62c21bdd61af03ae",
-        "signature": "30e44ca2ee02a806082c32506a032c35302163474887a954b7ba7c5abdd20270"
-      },
-      "../src/models/schemas/courseSchema.ts": {
-        "version": "6924c9fe2eb327a4383d40a4caeadd8d6cc5860a11f3c99c8aef10d69f911579",
-        "signature": "b759d840558a9c237ab89eee44aeca7a4f652eb54b95468247031082489cc21e"
-      },
-      "../src/models/schemas/enrollmentSchema.ts": {
-        "version": "c9653b4a601936c93ba75471857613892e9c9259e11db14d093798e5137e9626",
-        "signature": "2b8e3c25385a76a134da4aface0cbbfd94567c8088eb0b367b0fc4181db918f1"
-      },
-      "../src/models/schemas/feedbackSchema.ts": {
-        "version": "042fb63b89704b50293fe0def17e200644235d6d8ee68068b223519d68fbb4c5",
-        "signature": "1bba4aa75e802e956eb1e9f57f85e083491869e0ab58b1a0cc37fe95a5ee103b"
-      },
-      "../src/models/schemas/instructorSchema.ts": {
-        "version": "e14c784d9201e2a68cd7d8dc658ad6a108c9447c0465d27a00484ecbf0717eb6",
-        "signature": "0c74a6ed48146f6933ec7c2a209aa373dc8f94fcdf0909c3f8da37156408f1ff"
-      },
-      "../src/models/schemas/languageSchema.ts": {
-        "version": "88ee088843b9e55c3d3bc3fa50412a00ec9bf2e0fd89e3b78fe81624ccd750a9",
-        "signature": "540fc7cd2dc912d1915ee6d1e67f6aa96fb97830c6b02ed1c791a925f0214077"
-      },
-      "../src/models/schemas/learningProgressSchema.ts": {
-        "version": "921207a5ba4c3f97e13b86260211c22fd8c0cb6b66985c2b8802552272ee3539",
-        "signature": "b866c871ad625346f4a72ef04bdaa83f7541d70f8dc0ef71519d89a3acf641c7"
-      },
-      "../src/models/schemas/studentSchema.ts": {
-        "version": "daadd07561ca86757872fc6250a0d3be45a6417ded02e74ffebc8457440a362a",
-        "signature": "036852a0fd6df473783b093fdc42410c85de87417e9c4a6db787fc9f9a2b177e"
-      },
-      "../src/models/schemas/userSchema.ts": {
-        "version": "fe3f2391a13472a02a6f1333645faa04f45e60b516f92390e95503aa0364a647",
-        "signature": "c4cafe3ea20ac9e2240dff4410120df40b5208ea3a655727d9cf164feb3bdf31"
-      },
-      "../src/models/schemas/index.ts": {
-        "version": "1844d8ca089c8576bbd98e3efdb96be533cad8cee9723bb18d4f3d5551c1d191",
-        "signature": "1844d8ca089c8576bbd98e3efdb96be533cad8cee9723bb18d4f3d5551c1d191"
-      },
-      "../src/auth/auth.module.ts": {
-        "version": "1b20ef56527988fd1974b64412a9ea8d28c5c9b055efd502bd5440e75f491966",
+      "../src/modules/auth/auth.module.ts": {
+        "version": "fc857d9390ccc9665fb91e65853a52c53788cc09d5ebd45b126d2d3d58673d72",
         "signature": "a28b5c0c372fb375910b3fe3c3ce4331509bc18ccef7cc39c9ee9d8daf8225d1"
       },
-      "../src/auth/index.ts": {
-        "version": "5836b38d52af0364a00fc47174f01d53d990858916af2137bf30a32a88b7e610",
-        "signature": "5836b38d52af0364a00fc47174f01d53d990858916af2137bf30a32a88b7e610"
+      "../src/modules/auth/index.ts": {
+        "version": "ba31d81babb88a5cfcda406f21a98c3a74cad5e1e87be07ba6fd793867219b7a",
+        "signature": "ba31d81babb88a5cfcda406f21a98c3a74cad5e1e87be07ba6fd793867219b7a"
       },
-      "../src/models/index.ts": {
-        "version": "1120bf77a5bfd879921a033d5ba288a22dbcae09723cc336e63529c76c610272",
-        "signature": "1120bf77a5bfd879921a033d5ba288a22dbcae09723cc336e63529c76c610272"
+      "../src/modules/core/graphql/args/args.ts": {
+        "version": "9b8ba6a4afa5778aa418ab5a903af07309d7455322a23d630713d4315cd92c36",
+        "signature": "f767010ad2a2dbfed669cc213b7e3cfbf6dcec030c55a1b3eceaeebb2ec83198"
       },
-      "../src/shared/resolver/baseResolver.ts": {
-        "version": "b73aadcdd33090ea9d97a04ac27dd6ff543428369dcd13fb97c8f9894f106b4f",
-        "signature": "5d46dabb3ad847d9ebe378758479c26f46ff38b049ed8337a0d3ee83cee6550a"
+      "../src/modules/core/graphql/resolvers/course.resolver.ts": {
+        "version": "cac19f0f6b1ab5129162f35dfd2f29818febc6837613030e9691e586eba06851",
+        "signature": "048a1c45c4e5a005c59df1f2322f8515962f9fa9a54ce21eaac2c9548025502d"
       },
-      "../src/models/interfaces/IContentType.ts": {
-        "version": "253c8df4903eaceeea7cc0fbd3f7cc208647571c7b1b3e17071ba6d304b011ad",
-        "signature": "9d50b5ee313cd1dbdb20f0886ba6e14f6f7b7c82125f0fd8b28475f01e7548df"
+      "../src/modules/core/graphql/DTO/dtos.ts": {
+        "version": "9e814d85686ecec03aeb51a8b021b038444e38edfd5c5609737c09f70a8b2a4e",
+        "signature": "2a792d7d76d8898cdef8041bec300d6d308a66ff26572d9c76655ae08680ae6c"
       },
-      "../src/models/interfaces/ICourse.ts": {
-        "version": "fcd784da058cd9dfd3399631142b5c798a48a5935f9285a3e50003b9ce3aa09a",
-        "signature": "25eb9346707e2354ca0d3e491fa301a2abe007b83c7924d61919d91502b8ee8a"
+      "../src/modules/core/graphql/resolvers/category.resolver.ts": {
+        "version": "4dc5a0eaec973d2f18d4f5deab33d6eb9e140b7ed41bfff608d220f6c675895d",
+        "signature": "a3a3fde2902664f96e89d4c2229d976e1451d0cc3883837128a5c8b08238d12e"
       },
-      "../src/models/interfaces/ICourseChapter.ts": {
-        "version": "46d82a1e5192b449528e6d5e7c3adb17ab91e86cbd4b09fdba358fbd437aefdc",
-        "signature": "2f633168240c3aba5f67a06baef05d2f606df398a18d55ef8717450dec8e6dba"
+      "../src/modules/core/graphql/resolvers/contentType.resolver.ts": {
+        "version": "101178df883fbb88b51b02170ba95714751bc7f48cf4fb6c49345ff8afc4c3a4",
+        "signature": "8c07feef1b4925d2c504176d03f74f1c0d6e0ad6d1743e805938fdcda744f82a"
       },
-      "../src/models/interfaces/IEnrollment.ts": {
-        "version": "f388b5eff1fa2b18dad56aff32e61d283cea073bff3e3bb221d412587d57a215",
-        "signature": "779c1abaa14f8c989b682abbd92c4eac4968706bfd372b16ef80e6ab11020e16"
+      "../src/modules/core/graphql/resolvers/courseChapter.resolver.ts": {
+        "version": "62c70e8b090c905e6d3995f064e71e312679451d167968bec8c4dfbcce3f1858",
+        "signature": "6de8b9e36ccac55c235d82019e7aa3ed548d11b6ba9d8373741aa5377bc4ddeb"
       },
-      "../src/models/interfaces/IInstructor.ts": {
-        "version": "7360d3d897fe5dc3ebb85bd18a5e84a902f3f3de9fbd61062938274269bb8c3e",
-        "signature": "7b49a17fb0a07921e4719403db496766db7033a2abee05c031be6555b87fd4b4"
+      "../src/modules/core/graphql/resolvers/courseChapterContent.resolver.ts": {
+        "version": "3c421082fa941f1ee717a8ef0da6939c80c7f31e85fc2bd29ce1c63f6c2d5996",
+        "signature": "eb261ab420ee21ff516e402106c467f60515af0feba226ce4b45b5de6a74000e"
       },
-      "../src/models/interfaces/ILanguage.ts": {
-        "version": "33f00d8ea7b8d1ab183a8eba1a987e50b466f1b60541c1744eee52813bde5c04",
-        "signature": "39fca9051bfd061a1479f6d799e5ad6248ac749603f80615abd173012268ec2d"
+      "../src/modules/core/graphql/resolvers/courseLevel.resolver.ts": {
+        "version": "a13bde82d8d3dcffef21e3ab2fc14ff2b51763cfb9dffaa460032ff49969715b",
+        "signature": "4f36964d36d2465cd1ce8f82a9ef9851155d41c178c70d4f8e216abe3e5f3341"
       },
-      "../src/models/interfaces/ILearningProgress.ts": {
-        "version": "f37a72903942b44efd9c6f63d8762a2e67faec26f3b924138dc1f988209217de",
-        "signature": "e3e24424c9795095553d7ef4595baea8a130996d0fef08f24fe93e1f1e2f71c8"
+      "../src/modules/core/graphql/resolvers/enrollment.resolver.ts": {
+        "version": "5b6b3bb58fb9111145c29f1e0de4ad92914b59cfa9c3651f0b9250080e152152",
+        "signature": "391c0aee0fe410eb40ed0ffee900311009f361cb9672017128fc8f20dad078e8"
       },
-      "../src/models/interfaces/IStudent.ts": {
-        "version": "44cac811d774b090cef0c3c6457043d53439f12fba1bdd57a8f29e505f111151",
-        "signature": "a7f484a0990371d609e9f6c2fa35e487ff3b4dc104fb4ded62b7979269b57b6e"
+      "../src/modules/core/graphql/resolvers/feedback.resolver.ts": {
+        "version": "2732f7da7f99dd5712b0cdac5fa1d661603ec00d1e56a2125782b96843a8ca80",
+        "signature": "bea85133867c77b3d7f385787d3e56d6b7a1904f34d30a39e198a5e601acec89"
       },
-      "../src/models/interfaces/ICourseChapterContent.ts": {
-        "version": "502662d15883afbc125d156bce63787b196ba292acb13b77f8c19366d156ef1c",
-        "signature": "0f20b18cfb246f6d0e37cbac82a90af09ad65b1c8ffda5257ceb4a4138494cc9"
+      "../src/modules/core/graphql/resolvers/instructor.resolver.ts": {
+        "version": "1ce62ac76e67fd8c69c20c674f233ed8149273752f452d0bbc03e0882f616526",
+        "signature": "8c94e33d58c1941fba85670492e11ea305334d36da44bc6d13166e5932b46dff"
       },
-      "../src/models/interfaces/IFeedback.ts": {
-        "version": "746f672cb24c56c17ec6b8284973237139b8f9bd413b9d5a8209489dccdf15e5",
-        "signature": "bab357e0e5d08f725eae2175f338da377188e608242b3e68298c8567469742fb"
+      "../src/modules/core/graphql/resolvers/language.resolver.ts": {
+        "version": "b23c2a947ae6d95c7c4e992a023cf6ed522ff33d0ae8b5897f371062ecca58fc",
+        "signature": "e106b3f4b248bbfb7f52fa95edd937e1d1ca7dae01d58c8ad9a68d8e3bece584"
       },
-      "../src/models/interfaces/ICourseCategory.ts": {
-        "version": "cf712556dfc85da71821172bdb5447306df8abe49a8507129416bd90cf90ed2d",
-        "signature": "a914ce92fda5aa8ba1d6cfc9a6fd0cba7317b25aeeddb31235669bb11d7f86c0"
+      "../src/modules/core/graphql/resolvers/LearningProgress.resolver.ts": {
+        "version": "65042a65b27b6addbefb8e4abc17a3183c8908a186909b5071dfb046107aba93",
+        "signature": "b879141a3640284890464ac56e154700429bbf04b152bbcc41f97c25ffdb8d9b"
       },
-      "../src/models/interfaces/ICourseLevel.ts": {
-        "version": "84f57899528bbb3be22887de70b11e4f9ccaa86377f3529d7501d3804601736d",
-        "signature": "fe8dc140fcd9025d05be83163acd8e78f3a79f8ce4e8728ca455b392474d3836"
+      "../src/modules/core/graphql/resolvers/role.resolver.ts": {
+        "version": "9473170062dac2d23b2c1a02c079fcc73018e8dce06a10bf04b02c1495fb5a8f",
+        "signature": "ec97bcf8808a4f9ee401b226eadf9639cc09569375a1c1a6ad781c363ebdc943"
       },
-      "../src/core/services/services.ts": {
-        "version": "82a04a9ac36e0ccd588b93e644909852bb05f6caef862fa4465434e048e792ce",
-        "signature": "6bcf215d92ab9eec257c2034e0cc06b0f5e00dd0ce142afd8a75484d7a2718c5"
+      "../src/modules/core/graphql/resolvers/student.resolver.ts": {
+        "version": "38e7773fc449dc2ec095d9b1584c8e33bac96254d2fd53ab397660339c61596e",
+        "signature": "3fa432aa9befaffee921be32c716d6e374ab3490579b3ca1c7b736c600e16494"
       },
-      "../src/graphql/models/deleted.ts": {
-        "version": "4d0b76d28b2e1e977a286326d1abdec8ef65d45428fca34198fdb5501a397d37",
-        "signature": "d20531a465b67d0ba722c632b501c3f7df461d13b9a172186ce37dfaad27e921"
+      "../src/modules/core/graphql/resolvers/user.resolver.ts": {
+        "version": "d1c086f0b0dbb11ecdce3e5083cb831d3502fd88dd035d1ce78f3515d0a4c336",
+        "signature": "6b32f5f35627b3595a6ec5b691dec15b4a0acc238eb153408a9889f4948f1b32"
       },
-      "../src/graphql/dto/courses/contentType.dto.ts": {
-        "version": "9859c9739fba8a24e068345b292377581b036f5345b458adc7f2fe2bfd700a52",
-        "signature": "0b4923ae6f2148c2c6b317592a0c1ffe28bde7104f2a14f68f9bb73c20680c96"
-      },
-      "../src/core/resolvers/ContentType.resolver.ts": {
-        "version": "c922d6565dca4f7239814b03d143bd779b7f17c8f04f91ca2ba464ae43dc81c4",
-        "signature": "b482606aceb554dd8cbccccbd19791f73601e1d07e8d60b3e2f12d1b2ebed8ca"
-      },
-      "../src/graphql/dto/courses/course.dto.ts": {
-        "version": "06f46c4a88fc2d999ae9163c28bfe96a0940335e84ad5d7df7d55b25810588b4",
-        "signature": "0ca3b7856d05e5cf66a1ba29ed456c7d5884a1a7f07b2fd6e80a774a297eb299"
-      },
-      "../src/core/resolvers/Course.resolver.ts": {
-        "version": "ac4ee46be1a59082fe19559cc6e9bef04bc9578981b6190708d27c38868e1ecf",
-        "signature": "01f407e42af4b4d4d6dd36cc71bb4161955187d7c2f96802d7c408fb97f5ee0b"
-      },
-      "../src/graphql/dto/courses/courseChapter.dto.ts": {
-        "version": "6584e83c01b77c4a3698b59473bd0ba82a866450fa2379d6d817f01ed6619f2a",
-        "signature": "84967270b1ddb5d19ed9b442a2ca7b16c0a46deaf00e08af642e893d410ca311"
-      },
-      "../src/core/resolvers/CourseChapter.resolver.ts": {
-        "version": "6393a2deba2474de3529a6ca93a4e347f3c35cd6eb262e70e06f7d54a27184d6",
-        "signature": "43db2b4450dc20dadc7aaa786340090f71d3bdd7a1e5cb97f4191ea75eaa728a"
-      },
-      "../src/graphql/dto/courses/courseChapterContent.dto.ts": {
-        "version": "46d2873adf9ccd2cc913496abec94dbdeca29f487133e99ccba4354a5a8a1748",
-        "signature": "7dc795f1586bd1922897f2defbd4a65850deb5eb4578bc25625ccf16ff018fd5"
-      },
-      "../src/core/resolvers/CourseChapterContent.resolver.ts": {
-        "version": "597de67a4bf73901c62e71a7b0cd617c5f35e168165f45a400f7039580d8e721",
-        "signature": "e55c7a496946fdb5b345186742bb423fcf1ada079b5bbccb433c5ddb557fd62c"
-      },
-      "../src/graphql/dto/entrollment and progress/enrollement.dto.ts": {
-        "version": "c0c12d543766d3953539a94eaa2869a142de6e622951d079d84d5b678074d220",
-        "signature": "34026ced6957208b9d75b5ecc262aaa1b46f59f1d21c269c5bcc7e9b71bae2d4"
-      },
-      "../src/core/resolvers/Enrollment.resolver.ts": {
-        "version": "02101d0ddb303ebcb1f1487156cf749da08f5e96b201c68824c5912653819bfd",
-        "signature": "2bd52251ce0b4536913054062004fc538c604165085e196fc8feae468590f0a3"
-      },
-      "../src/graphql/dto/feedback submission/feedback.dto.ts": {
-        "version": "2f359fc596246ee56e0c7e28dc0418cd9eecc4ca24afd350fe98caa0058b62a1",
-        "signature": "fbaaf258be9de70c840877c421e7226dc0e93e907d81d06c657690cd4da6a327"
-      },
-      "../src/core/resolvers/Feedback.resolver.ts": {
-        "version": "ed9ea818a7de00b36b9da7bada2cc86bb8689c820655873530abe07f913538ce",
-        "signature": "e85c15b1386a5a553854d64a7547e659080302905977695637338dc54a80e5e7"
-      },
-      "../src/graphql/dto/actors/instructor.dto.ts": {
-        "version": "ce8ae13d17970331fcec317a3785627ee183d99090965d6005b83e92f1031703",
-        "signature": "4edfc2328da59f6177ea0b0254be338790e606f4b118f8f929dfae3922aaace5"
-      },
-      "../src/core/resolvers/Instructor.resolver.ts": {
-        "version": "dc9b8206cc4c1fea6da78895fbd7a809ce70f92848db9f1d05ad69710a36de86",
-        "signature": "1d03ec7ec2b168fff9b5572f4605c95a7ad48374e8c34e4f8d60804e0f6951f5"
-      },
-      "../src/graphql/dto/courses/language.dto.ts": {
-        "version": "8161e446523d2b6cc72b5d6557a0a3770cc83d0044cc8f102b3a5910b749e581",
-        "signature": "6c5923e88297fd31b36ada73be0f13c0380c0a8455d5bc370a2bb687d5aec760"
-      },
-      "../src/core/resolvers/language.resolver.ts": {
-        "version": "54ef27af8e35f9e89e66e51a40d5e73dc1f212a4cc7f6056f1c8d77128534b01",
-        "signature": "0e4a6fa31647228676bdb91e308083fe09174b113adbed1418c6501f0421dd23"
-      },
-      "../src/graphql/dto/entrollment and progress/learningProgress.dto.ts": {
-        "version": "0b287f0564e883e52aea5b2fdfd24d3d132b80dedec78961e9f2b9ab94326cce",
-        "signature": "3d7209ddf2a181055a683f370cfe46f69c594166a19136e4af389db8f24fc4ca"
-      },
-      "../src/core/resolvers/LearningProgress.resolver.ts": {
-        "version": "9cd86cc85b44b31f68b987abc9998984c6769c648eaa7e8c7ed066deefad1437",
-        "signature": "0a228c02edaa76cc978f68d95c0dc67a7027ad21c6ddf90bfca9df661514d830"
-      },
-      "../src/graphql/dto/actors/student.dto.ts": {
-        "version": "2a05ea9fe607f05756e3737f2f0c1557fc173375338654881d70b9308784e1ec",
-        "signature": "05b5f59ffa2cca71228b222455927254fcb24dd5c255a6e21aabc014330dd38e"
-      },
-      "../src/core/resolvers/Student.resolver.ts": {
-        "version": "271694cfa13d241ecc0f9610625f4a76f8d224976dd7927a093ea35260edc562",
-        "signature": "667bc1cf75de3c75ec782fecda59334b0c2e771c0d69544776dfae9f1389e276"
-      },
-      "../src/graphql/dto/actors/user.dto.ts": {
-        "version": "39772c654f8284395e534159ed347c6c7d41a1e1129c4842f2bc5890cffa00eb",
-        "signature": "62a26f43235536a2bbabc454ec0804ee1c3df2773be032b848107017163612d8"
-      },
-      "../src/core/resolvers/User.resolver.ts": {
-        "version": "b284d821ff57577f7d4a6224f62f2af28c13b0076b03e72a00f198fe1158ea7a",
-        "signature": "7e4bba591ad2f95292eb4736d0fa0c67aee05aa6c7b43406f3c0e17fcbe34d3c"
-      },
-      "../src/models/schemas/courseLevelSchema.ts": {
-        "version": "761470026f7b110238a6c589c87538426c0cdba56cfac124e26cabd9fb29b643",
-        "signature": "81766e280648f9ec604b447e4318166680b13713b38c2536663bf51405d7bfcb"
-      },
-      "../src/models/schemas/courseCategorySchema.ts": {
-        "version": "7ce94ff93a358ab316b1cf8913d9038d683fc45d2718e305fc9cf7871ea5ac71",
-        "signature": "31112578faa81509879e0cad97b7a8cf31b4c0e40afbd96575f436f8069f82f9"
-      },
-      "../src/database/database.module.ts": {
-        "version": "d0cad6cb9ebd163fb609e602ffdfb53673f99168b7122bfe7e1f7c898903f3d0",
-        "signature": "a7ad670f373dd5665c73c7dc09a8e28b976a63bd7ed08def7c1c13456e87d3dc"
+      "../src/modules/core/core.module.ts": {
+        "version": "c9f2101fdc0d495ec0b106146ed5f719a37d7fbfcbc8d11a55176340dd5e3dbf",
+        "signature": "ae2300e8696b45c211ee603e0832d96c4b22f5c5df7f3cddd4be72f1beb299cc"
       },
       "../src/app.module.ts": {
-        "version": "e4e81b91114ec1c64b42a4846b3c7aa952b55cf9dd7cbf71a284362a2f4e5936",
+        "version": "0a46da145875b55a8c27ad32d029a2b2dd5202e8b9b4e4a76449553f0b37dcb7",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644"
       },
       "../src/main.ts": {
-        "version": "0e90bcb52c80273ed19e57f3105d96cb0055aebc92bbcdc6f32fd839024866da",
+        "version": "d70c0dfc2e14a2e1557ef43862a8f596d55d854f6e6967587a56b7724347fc47",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
       },
-      "../src/graphql/dto/courses/courseCategory.dto.ts": {
-        "version": "5044e5fb89c2ff80d92082f9e01d6072cb9016a5c2aaf5d81c4ee601b1690cf5",
-        "signature": "b707bc06ba33abdc088f86956d6997fad481fbe49477409e13870463ad9acf20"
-      },
-      "../src/core/resolvers/CourseCategory.resolver.ts": {
-        "version": "b14eb19e71b9b2dc097092460a2a0616155a3dfc02ab9d33a7cddd59fd092ccf",
-        "signature": "7458a4488e97a80948c9226b6b9e8406ef248e46aaa3a9d233f7cdb384dc9627"
-      },
-      "../src/graphql/dto/courses/courseLevel.dto.ts": {
-        "version": "b08e577ff9de39befb02adb79b8273b873f3e10b424d006db8327ada4173a0ce",
-        "signature": "47b141847c9b8da1d622847014b493e8f641b50930a204b3c0f26a16504551ca"
-      },
-      "../src/core/resolvers/CourseLevel.resolver.ts": {
-        "version": "0c759f7712ee1499166fe42efacf0efdc967bb6a0edb31063e618794e249c9e9",
-        "signature": "e2fa532b1b97c48891bad68f5e55460a6e63a5348f42c8528b487e451eff65e8"
-      },
-      "../src/graphql/models/queston and answer/question.ts": {
-        "version": "8057c08ee7288fc743c5f789363860a19aa31ac86a8c50f2bd9f80d0635ed4cb",
-        "signature": "85fe380f9bc8989c4048adcf4f37137fbb964fff9445ac5f85e65ef37db719f0"
+      "../src/modules/core/graphql/resolvers/file.resolver.ts": {
+        "version": "1d236297a6b261aaf8a12c402a5bf909f4ce8cc5d1600edb8e4b33721e5c9919",
+        "signature": "b43bcc060d1af1bf52aeef9838003b51adc156cac785ef4f35e6df070021186e"
       },
       "../src/shared/dto/update/updateUser.dto.ts": {
         "version": "6df2f91bc100df3a88fa894169ef3880411333f6d21711197d6f57be6bb66bc2",
@@ -3579,6 +3375,10 @@
       "../src/shared/interfaces/idataloader.ts": {
         "version": "08505f9f43c9587f598221ecece5b49c7201d4e94c8b445146df46ac2b3eeadd",
         "signature": "db717dcca724253450a237ac7b3cbe509a06b24904623186e45c7416b9eeeabc"
+      },
+      "../src/shared/models/base.ts": {
+        "version": "3d6df71d3e4a12f02b46d478f8ffcaeaf0e11c366b19bef2ae4f30a8bfe1605d",
+        "signature": "0afe414edb7a182fdda4bb36f9c3c66f63adc9f14484286d19ad6f0d6de86858"
       },
       "../src/shared/scalars/date.scalar.ts": {
         "version": "4b5e7be4c7ab8814741b52893d22d3170dcf316b12933c79224a9e8f4cc30071",
@@ -9472,8 +9272,15 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/@types/jsonwebtoken/index.d.ts": [
-        "../node_modules/@types/node/ts3.2/index.d.ts",
+      "../src/modules/database/schema/schemas.ts": [
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/shared/interfaces/ibaseModel.ts": [
+        "../node_modules/@types/mongoose/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -10312,34 +10119,6 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/shared/dto/create/ createUser.dto.ts": [
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/shared/interfaces/ibaseModel.ts": [
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/models/interfaces/iuser.ts": [
-        "../src/shared/interfaces/ibaseModel.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/models/interfaces/index.ts": [
-        "../src/models/interfaces/iuser.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "../src/shared/args/base.arg.ts": [
         "../node_modules/type-graphql/dist/index.d.ts",
         "../node_modules/class-validator/index.d.ts",
@@ -10367,33 +10146,82 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/auth/service/user.service.ts": [
+      "../src/modules/database/interface/interfaces.ts": [
+        "../src/shared/interfaces/ibaseModel.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/modules/database/seeder/seeder.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/node/path.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../src/modules/database/index.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/modules/database/index.ts": [
+        "../src/modules/database/interface/interfaces.ts",
+        "../src/modules/database/schema/schemas.ts",
+        "../src/modules/database/seeder/seeder.ts",
+        "../src/modules/database/services/services.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/modules/database/services/services.ts": [
+        "../src/shared/base.service.ts",
         "../node_modules/@nestjs/mongoose/index.d.ts",
         "../node_modules/@types/mongoose/index.d.ts",
-        "../src/shared/dto/create/ createUser.dto.ts",
-        "../src/models/interfaces/index.ts",
-        "../src/shared/base.service.ts",
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/modules/database/index.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/auth/jwt-payload.interface.ts": [
+      "../src/modules/database/database.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/modules/database/schema/schemas.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../src/modules/database/services/services.ts",
+        "../src/modules/database/seeder/seeder.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/auth/service/auth.service.ts": [
+      "../node_modules/@types/jsonwebtoken/index.d.ts": [
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/modules/auth/jwt-payload.interface.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/shared/dto/create/ createUser.dto.ts": [
+        "../node_modules/type-graphql/dist/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/modules/auth/service/auth.service.ts": [
         "../node_modules/@types/jsonwebtoken/index.d.ts",
         "../node_modules/@nestjs/common/index.d.ts",
-        "../src/auth/service/user.service.ts",
-        "../src/auth/jwt-payload.interface.ts",
+        "../src/modules/auth/jwt-payload.interface.ts",
         "../src/config/config.service.ts",
-        "../src/shared/dto/create/ createUser.dto.ts",
         "../src/shared/interfaces/ibaseModel.ts",
-        "../src/models/interfaces/index.ts",
+        "../src/shared/dto/create/ createUser.dto.ts",
+        "../src/modules/database/index.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -10556,152 +10384,25 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/shared/models/base.ts": [
+      "../src/modules/core/graphql/types.ts": [
         "../node_modules/type-graphql/dist/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/graphql/models/actors/user.ts": [
-        "../src/shared/models/base.ts",
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/models/actors/instructor.ts": [
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../src/graphql/models/actors/user.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/models/actors/student.ts": [
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../src/graphql/models/actors/user.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/models/courses/contentType.ts": [
-        "../src/shared/models/base.ts",
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/models/courses/language.ts": [
-        "../src/shared/models/base.ts",
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/models/courses/CourseLevel.ts": [
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/models/courses/courseCategory.ts": [
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/models/courses/course.ts": [
-        "../src/shared/models/base.ts",
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../src/graphql/models/courses/language.ts",
-        "../src/graphql/index.ts",
-        "../src/graphql/models/courses/CourseLevel.ts",
-        "../src/graphql/models/courses/courseCategory.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/models/courses/courseChapter.ts": [
-        "../src/shared/models/base.ts",
-        "../src/graphql/models/courses/course.ts",
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/models/courses/courseChapterContent.ts": [
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../src/graphql/models/courses/courseChapter.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/models/entrollment and progress/enrollement.ts": [
-        "../src/shared/models/base.ts",
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../src/graphql/index.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/models/entrollment and progress/learningProgress.ts": [
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../src/graphql/models/entrollment and progress/enrollement.ts",
-        "../src/graphql/index.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/models/feedback submission/feedback.ts": [
-        "../src/shared/models/base.ts",
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../src/graphql/index.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/index.ts": [
-        "../src/graphql/models/actors/user.ts",
-        "../src/graphql/models/actors/instructor.ts",
-        "../src/graphql/models/actors/student.ts",
-        "../src/graphql/models/courses/contentType.ts",
-        "../src/graphql/models/courses/course.ts",
-        "../src/graphql/models/courses/courseChapter.ts",
-        "../src/graphql/models/courses/courseChapterContent.ts",
-        "../src/graphql/models/courses/language.ts",
-        "../src/graphql/models/entrollment and progress/enrollement.ts",
-        "../src/graphql/models/entrollment and progress/learningProgress.ts",
-        "../src/graphql/models/feedback submission/feedback.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/auth/auth.resolver.ts": [
+      "../src/modules/auth/auth.resolver.ts": [
         "../node_modules/@types/express/index.d.ts",
         "../node_modules/@nestjs/graphql/index.d.ts",
         "../node_modules/@nestjs/jwt/index.d.ts",
-        "../src/auth/service/user.service.ts",
         "../src/shared/decorators/decorators.ts",
         "../src/shared/dto/loginUser.dto.ts",
-        "../src/auth/service/auth.service.ts",
+        "../src/modules/database/index.ts",
+        "../src/modules/auth/service/auth.service.ts",
         "../src/shared/dto/create/ createUser.dto.ts",
         "../node_modules/@nestjs/common/index.d.ts",
         "../src/shared/guards/graphql-auth.guard.ts",
-        "../src/graphql/index.ts",
+        "../src/modules/core/graphql/types.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -10724,522 +10425,218 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/auth/jwt.strategy.ts": [
+      "../src/modules/auth/jwt.strategy.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/passport/index.d.ts",
         "../node_modules/@types/passport-jwt/index.d.ts",
         "../node_modules/@types/express/index.d.ts",
-        "../src/auth/service/auth.service.ts",
+        "../src/modules/auth/service/auth.service.ts",
         "../src/config/config.service.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/models/schemas/contentTypeSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/models/schemas/courseChapterContentSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/models/schemas/courseChapterSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/models/schemas/courseSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/models/schemas/enrollmentSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/models/schemas/feedbackSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/models/schemas/instructorSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/models/schemas/languageSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/models/schemas/learningProgressSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/models/schemas/studentSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/models/schemas/userSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/models/schemas/index.ts": [
-        "../src/models/schemas/contentTypeSchema.ts",
-        "../src/models/schemas/courseChapterContentSchema.ts",
-        "../src/models/schemas/courseChapterSchema.ts",
-        "../src/models/schemas/courseSchema.ts",
-        "../src/models/schemas/enrollmentSchema.ts",
-        "../src/models/schemas/feedbackSchema.ts",
-        "../src/models/schemas/instructorSchema.ts",
-        "../src/models/schemas/languageSchema.ts",
-        "../src/models/schemas/learningProgressSchema.ts",
-        "../src/models/schemas/studentSchema.ts",
-        "../src/models/schemas/userSchema.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/auth/auth.module.ts": [
+      "../src/modules/auth/auth.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
-        "../src/auth/service/auth.service.ts",
-        "../src/auth/auth.resolver.ts",
+        "../src/modules/auth/service/auth.service.ts",
+        "../src/modules/auth/auth.resolver.ts",
         "../node_modules/@nestjs/passport/index.d.ts",
         "../node_modules/@nestjs/jwt/index.d.ts",
-        "../src/auth/jwt.strategy.ts",
+        "../src/modules/auth/jwt.strategy.ts",
         "../src/config/config.service.ts",
-        "../src/auth/service/user.service.ts",
+        "../src/modules/database/index.ts",
         "../src/config/config.module.ts",
+        "../src/modules/database/database.module.ts",
         "../node_modules/@nestjs/mongoose/index.d.ts",
-        "../src/models/schemas/index.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/auth/index.ts": [
-        "../src/auth/auth.module.ts",
-        "../src/auth/auth.resolver.ts",
-        "../src/auth/jwt-payload.interface.ts",
-        "../src/auth/service/auth.service.ts",
-        "../src/auth/service/user.service.ts",
+      "../src/modules/auth/index.ts": [
+        "../src/modules/auth/auth.module.ts",
+        "../src/modules/auth/auth.resolver.ts",
+        "../src/modules/auth/jwt-payload.interface.ts",
+        "../src/modules/auth/service/auth.service.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/models/index.ts": [
-        "../src/models/interfaces/index.ts",
-        "../src/models/schemas/index.ts",
+      "../src/modules/core/graphql/args/args.ts": [
+        "../node_modules/type-graphql/dist/index.d.ts",
+        "../src/shared/args/base.arg.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/shared/resolver/baseResolver.ts": [
+      "../src/modules/core/graphql/resolvers/course.resolver.ts": [
         "../node_modules/@nestjs/graphql/index.d.ts",
-        "../src/graphql/index.ts",
+        "../src/modules/core/graphql/types.ts",
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/args/args.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/models/interfaces/IContentType.ts": [
-        "../src/shared/interfaces/ibaseModel.ts",
+      "../src/modules/core/graphql/DTO/dtos.ts": [
+        "../src/modules/core/graphql/types.ts",
+        "../node_modules/type-graphql/dist/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/models/interfaces/ICourse.ts": [
-        "../src/shared/interfaces/ibaseModel.ts",
+      "../src/modules/core/graphql/resolvers/category.resolver.ts": [
+        "../node_modules/@nestjs/graphql/index.d.ts",
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/types.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/models/interfaces/ICourseChapter.ts": [
-        "../src/shared/interfaces/ibaseModel.ts",
-        "../node_modules/@types/mongoose/index.d.ts",
+      "../src/modules/core/graphql/resolvers/contentType.resolver.ts": [
+        "../node_modules/@nestjs/graphql/index.d.ts",
+        "../src/modules/core/graphql/types.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
+        "../src/modules/database/index.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/models/interfaces/IEnrollment.ts": [
-        "../src/shared/interfaces/ibaseModel.ts",
+      "../src/modules/core/graphql/resolvers/courseChapter.resolver.ts": [
+        "../node_modules/@nestjs/graphql/index.d.ts",
+        "../src/modules/core/graphql/types.ts",
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/models/interfaces/IInstructor.ts": [
-        "../src/shared/interfaces/ibaseModel.ts",
+      "../src/modules/core/graphql/resolvers/courseChapterContent.resolver.ts": [
+        "../node_modules/@nestjs/graphql/index.d.ts",
+        "../src/modules/core/graphql/types.ts",
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/models/interfaces/ILanguage.ts": [
-        "../src/shared/interfaces/ibaseModel.ts",
+      "../src/modules/core/graphql/resolvers/courseLevel.resolver.ts": [
+        "../node_modules/@nestjs/graphql/index.d.ts",
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
+        "../src/modules/core/graphql/types.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/models/interfaces/ILearningProgress.ts": [
-        "../src/shared/interfaces/ibaseModel.ts",
+      "../src/modules/core/graphql/resolvers/enrollment.resolver.ts": [
+        "../node_modules/@nestjs/graphql/index.d.ts",
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/types.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/models/interfaces/IStudent.ts": [
-        "../src/shared/interfaces/ibaseModel.ts",
+      "../src/modules/core/graphql/resolvers/feedback.resolver.ts": [
+        "../node_modules/@nestjs/graphql/index.d.ts",
+        "../src/modules/core/graphql/types.ts",
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/models/interfaces/ICourseChapterContent.ts": [
-        "../src/shared/interfaces/ibaseModel.ts",
+      "../src/modules/core/graphql/resolvers/instructor.resolver.ts": [
+        "../node_modules/@nestjs/graphql/index.d.ts",
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
+        "../src/modules/core/graphql/types.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/models/interfaces/IFeedback.ts": [
-        "../src/shared/interfaces/ibaseModel.ts",
+      "../src/modules/core/graphql/resolvers/language.resolver.ts": [
+        "../node_modules/@nestjs/graphql/index.d.ts",
+        "../src/modules/core/graphql/types.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
+        "../src/modules/database/index.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/models/interfaces/ICourseCategory.ts": [
-        "../src/shared/interfaces/ibaseModel.ts",
+      "../src/modules/core/graphql/resolvers/LearningProgress.resolver.ts": [
+        "../node_modules/@nestjs/graphql/index.d.ts",
+        "../src/modules/core/graphql/types.ts",
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/models/interfaces/ICourseLevel.ts": [
-        "../src/shared/interfaces/ibaseModel.ts",
+      "../src/modules/core/graphql/resolvers/role.resolver.ts": [
+        "../src/modules/core/graphql/types.ts",
+        "../node_modules/@nestjs/graphql/index.d.ts",
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/core/services/services.ts": [
-        "../src/shared/base.service.ts",
-        "../node_modules/@nestjs/mongoose/index.d.ts",
-        "../src/models/interfaces/IContentType.ts",
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../src/models/interfaces/ICourse.ts",
-        "../src/models/interfaces/ICourseChapter.ts",
-        "../src/models/interfaces/IEnrollment.ts",
-        "../src/models/interfaces/IInstructor.ts",
-        "../src/models/interfaces/ILanguage.ts",
-        "../src/models/interfaces/ILearningProgress.ts",
-        "../src/models/interfaces/IStudent.ts",
-        "../src/models/interfaces/ICourseChapterContent.ts",
+      "../src/modules/core/graphql/resolvers/student.resolver.ts": [
+        "../node_modules/@nestjs/graphql/index.d.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/types.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/modules/core/graphql/resolvers/user.resolver.ts": [
+        "../node_modules/@nestjs/graphql/index.d.ts",
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
+        "../src/modules/core/graphql/types.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/modules/core/core.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
-        "../src/models/interfaces/IFeedback.ts",
-        "../src/models/interfaces/ICourseCategory.ts",
-        "../src/models/interfaces/ICourseLevel.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/models/deleted.ts": [
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/dto/courses/contentType.dto.ts": [
-        "../src/shared/models/base.ts",
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/core/resolvers/ContentType.resolver.ts": [
-        "../node_modules/@nestjs/graphql/index.d.ts",
-        "../src/graphql/index.ts",
-        "../src/core/services/services.ts",
-        "../src/graphql/models/deleted.ts",
-        "../src/graphql/dto/courses/contentType.dto.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/dto/courses/course.dto.ts": [
-        "../src/shared/models/base.ts",
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/core/resolvers/Course.resolver.ts": [
-        "../node_modules/@nestjs/graphql/index.d.ts",
-        "../src/graphql/index.ts",
-        "../src/core/services/services.ts",
-        "../src/graphql/models/deleted.ts",
-        "../src/graphql/dto/courses/course.dto.ts",
-        "../src/models/interfaces/ICourse.ts",
-        "../src/graphql/models/courses/CourseLevel.ts",
-        "../src/graphql/models/courses/courseCategory.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/dto/courses/courseChapter.dto.ts": [
-        "../src/shared/models/base.ts",
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/core/resolvers/CourseChapter.resolver.ts": [
-        "../node_modules/@nestjs/graphql/index.d.ts",
-        "../src/graphql/index.ts",
-        "../src/core/services/services.ts",
-        "../src/graphql/models/deleted.ts",
-        "../src/models/interfaces/ICourseChapter.ts",
-        "../src/graphql/dto/courses/courseChapter.dto.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/dto/courses/courseChapterContent.dto.ts": [
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/core/resolvers/CourseChapterContent.resolver.ts": [
-        "../node_modules/@nestjs/graphql/index.d.ts",
-        "../src/graphql/index.ts",
-        "../src/core/services/services.ts",
-        "../src/graphql/models/deleted.ts",
-        "../src/graphql/dto/courses/courseChapterContent.dto.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/dto/entrollment and progress/enrollement.dto.ts": [
-        "../src/shared/models/base.ts",
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../src/graphql/index.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/core/resolvers/Enrollment.resolver.ts": [
-        "../node_modules/@nestjs/graphql/index.d.ts",
-        "../src/graphql/index.ts",
-        "../src/core/services/services.ts",
-        "../src/graphql/models/deleted.ts",
-        "../src/graphql/dto/entrollment and progress/enrollement.dto.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/dto/feedback submission/feedback.dto.ts": [
-        "../src/shared/models/base.ts",
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../src/graphql/index.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/core/resolvers/Feedback.resolver.ts": [
-        "../node_modules/@nestjs/graphql/index.d.ts",
-        "../src/graphql/index.ts",
-        "../src/core/services/services.ts",
-        "../src/graphql/models/deleted.ts",
-        "../src/graphql/dto/feedback submission/feedback.dto.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/dto/actors/instructor.dto.ts": [
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/core/resolvers/Instructor.resolver.ts": [
-        "../node_modules/@nestjs/graphql/index.d.ts",
-        "../src/graphql/index.ts",
-        "../src/core/services/services.ts",
-        "../src/graphql/models/deleted.ts",
-        "../src/auth/index.ts",
-        "../src/models/interfaces/IInstructor.ts",
-        "../src/graphql/dto/actors/instructor.dto.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/dto/courses/language.dto.ts": [
-        "../src/shared/models/base.ts",
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/core/resolvers/language.resolver.ts": [
-        "../node_modules/@nestjs/graphql/index.d.ts",
-        "../src/shared/resolver/baseResolver.ts",
-        "../src/graphql/index.ts",
-        "../src/core/services/services.ts",
-        "../src/graphql/models/deleted.ts",
-        "../src/graphql/dto/courses/language.dto.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/dto/entrollment and progress/learningProgress.dto.ts": [
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/core/resolvers/LearningProgress.resolver.ts": [
-        "../node_modules/@nestjs/graphql/index.d.ts",
-        "../src/shared/resolver/baseResolver.ts",
-        "../src/graphql/index.ts",
-        "../src/core/services/services.ts",
-        "../src/graphql/models/deleted.ts",
-        "../src/graphql/dto/entrollment and progress/learningProgress.dto.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/dto/actors/student.dto.ts": [
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/core/resolvers/Student.resolver.ts": [
-        "../node_modules/@nestjs/graphql/index.d.ts",
-        "../src/graphql/index.ts",
-        "../src/core/services/services.ts",
-        "../src/graphql/models/deleted.ts",
-        "../src/auth/index.ts",
-        "../src/models/interfaces/IStudent.ts",
-        "../src/graphql/dto/actors/student.dto.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/dto/actors/user.dto.ts": [
-        "../src/shared/models/base.ts",
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/core/resolvers/User.resolver.ts": [
-        "../node_modules/@nestjs/graphql/index.d.ts",
-        "../src/graphql/index.ts",
-        "../src/auth/index.ts",
-        "../src/graphql/models/deleted.ts",
-        "../src/graphql/dto/actors/user.dto.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/models/schemas/courseLevelSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/models/schemas/courseCategorySchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/database/database.module.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/mongoose/index.d.ts",
-        "../src/models/index.ts",
-        "../src/shared/base.service.ts",
-        "../src/shared/resolver/baseResolver.ts",
-        "../src/core/resolvers/ContentType.resolver.ts",
-        "../src/core/resolvers/Course.resolver.ts",
-        "../src/core/resolvers/CourseChapter.resolver.ts",
-        "../src/core/resolvers/CourseChapterContent.resolver.ts",
-        "../src/core/resolvers/Enrollment.resolver.ts",
-        "../src/core/resolvers/Feedback.resolver.ts",
-        "../src/core/resolvers/Instructor.resolver.ts",
-        "../src/core/resolvers/language.resolver.ts",
-        "../src/core/resolvers/LearningProgress.resolver.ts",
-        "../src/core/resolvers/Student.resolver.ts",
-        "../src/core/resolvers/User.resolver.ts",
-        "../src/core/services/services.ts",
-        "../src/auth/index.ts",
-        "../src/models/schemas/courseLevelSchema.ts",
-        "../src/models/schemas/courseCategorySchema.ts",
+        "../src/modules/core/graphql/resolvers/course.resolver.ts",
+        "../src/modules/database/database.module.ts",
+        "../src/modules/core/graphql/resolvers/category.resolver.ts",
+        "../src/modules/core/graphql/resolvers/contentType.resolver.ts",
+        "../src/modules/core/graphql/resolvers/courseChapter.resolver.ts",
+        "../src/modules/core/graphql/resolvers/courseChapterContent.resolver.ts",
+        "../src/modules/core/graphql/resolvers/courseLevel.resolver.ts",
+        "../src/modules/core/graphql/resolvers/enrollment.resolver.ts",
+        "../src/modules/core/graphql/resolvers/feedback.resolver.ts",
+        "../src/modules/core/graphql/resolvers/instructor.resolver.ts",
+        "../src/modules/core/graphql/resolvers/language.resolver.ts",
+        "../src/modules/core/graphql/resolvers/LearningProgress.resolver.ts",
+        "../src/modules/core/graphql/resolvers/role.resolver.ts",
+        "../src/modules/core/graphql/resolvers/student.resolver.ts",
+        "../src/modules/core/graphql/resolvers/user.resolver.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -11254,8 +10651,9 @@
         "../src/mongoose-config.service.ts",
         "../node_modules/@nestjs/graphql/index.d.ts",
         "../node_modules/@nestjs/mongoose/index.d.ts",
-        "../src/auth/index.ts",
-        "../src/database/database.module.ts",
+        "../src/modules/database/database.module.ts",
+        "../src/modules/auth/index.ts",
+        "../src/modules/core/core.module.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -11270,45 +10668,10 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/graphql/dto/courses/courseCategory.dto.ts": [
-        "../src/graphql/models/courses/courseCategory.ts",
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/core/resolvers/CourseCategory.resolver.ts": [
+      "../src/modules/core/graphql/resolvers/file.resolver.ts": [
         "../node_modules/@nestjs/graphql/index.d.ts",
-        "../src/graphql/models/deleted.ts",
-        "../src/graphql/models/courses/courseCategory.ts",
-        "../src/graphql/dto/courses/courseCategory.dto.ts",
-        "../src/core/services/services.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/dto/courses/courseLevel.dto.ts": [
-        "../node_modules/type-graphql/dist/index.d.ts",
-        "../src/graphql/models/courses/CourseLevel.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/core/resolvers/CourseLevel.resolver.ts": [
-        "../node_modules/@nestjs/graphql/index.d.ts",
-        "../src/graphql/models/deleted.ts",
-        "../src/core/services/services.ts",
-        "../src/graphql/models/courses/CourseLevel.ts",
-        "../src/graphql/dto/courses/courseLevel.dto.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/graphql/models/queston and answer/question.ts": [
+        "../node_modules/@types/graphql-upload/index.d.ts",
+        "../src/modules/core/graphql/types.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -11322,6 +10685,13 @@
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/shared/interfaces/idataloader.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/shared/models/base.ts": [
+        "../node_modules/type-graphql/dist/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -11857,119 +11227,26 @@
         "../src/shared/interfaces/ibaseModel.ts",
         "../src/shared/args/base.arg.ts"
       ],
-      "../src/core/services/services.ts": [
-        "../src/shared/base.service.ts",
-        "../src/models/interfaces/IContentType.ts",
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../src/models/interfaces/ICourse.ts",
-        "../src/models/interfaces/ICourseChapter.ts",
-        "../src/models/interfaces/IEnrollment.ts",
-        "../src/models/interfaces/IInstructor.ts",
-        "../src/models/interfaces/ILanguage.ts",
-        "../src/models/interfaces/ILearningProgress.ts",
-        "../src/models/interfaces/IStudent.ts",
-        "../src/models/interfaces/ICourseChapterContent.ts",
-        "../src/models/interfaces/IFeedback.ts",
-        "../src/models/interfaces/ICourseCategory.ts",
-        "../src/models/interfaces/ICourseLevel.ts"
+      "../src/modules/auth/index.ts": [
+        "../src/modules/auth/auth.module.ts",
+        "../src/modules/auth/auth.resolver.ts",
+        "../src/modules/auth/jwt-payload.interface.ts",
+        "../src/modules/auth/service/auth.service.ts"
       ],
-      "../src/core/resolvers/CourseLevel.resolver.ts": [
-        "../src/core/services/services.ts",
-        "../src/graphql/dto/courses/courseLevel.dto.ts",
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/core/resolvers/CourseCategory.resolver.ts": [
-        "../src/graphql/dto/courses/courseCategory.dto.ts",
-        "../src/core/services/services.ts",
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/core/resolvers/Student.resolver.ts": [
-        "../src/core/services/services.ts",
-        "../src/auth/index.ts",
-        "../src/models/interfaces/IStudent.ts",
-        "../src/graphql/dto/actors/student.dto.ts",
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/core/resolvers/LearningProgress.resolver.ts": [
-        "../src/core/services/services.ts",
-        "../src/graphql/dto/entrollment and progress/learningProgress.dto.ts",
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/core/resolvers/language.resolver.ts": [
-        "../src/core/services/services.ts",
-        "../src/graphql/dto/courses/language.dto.ts",
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/core/resolvers/Instructor.resolver.ts": [
-        "../src/core/services/services.ts",
-        "../src/auth/index.ts",
-        "../src/models/interfaces/IInstructor.ts",
-        "../src/graphql/dto/actors/instructor.dto.ts",
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/core/resolvers/Feedback.resolver.ts": [
-        "../src/core/services/services.ts",
-        "../src/graphql/dto/feedback submission/feedback.dto.ts",
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/core/resolvers/Enrollment.resolver.ts": [
-        "../src/core/services/services.ts",
-        "../src/graphql/dto/entrollment and progress/enrollement.dto.ts",
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/core/resolvers/CourseChapterContent.resolver.ts": [
-        "../src/core/services/services.ts",
-        "../src/graphql/dto/courses/courseChapterContent.dto.ts",
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/core/resolvers/CourseChapter.resolver.ts": [
-        "../src/core/services/services.ts",
-        "../src/models/interfaces/ICourseChapter.ts",
-        "../src/graphql/dto/courses/courseChapter.dto.ts",
-        "../src/shared/interfaces/ibaseModel.ts",
-        "../src/models/interfaces/ICourseChapterContent.ts",
-        "../node_modules/@types/mongoose/index.d.ts"
-      ],
-      "../src/core/resolvers/Course.resolver.ts": [
-        "../src/core/services/services.ts",
-        "../src/graphql/dto/courses/course.dto.ts",
-        "../src/models/interfaces/ICourse.ts",
-        "../src/shared/interfaces/ibaseModel.ts",
-        "../src/models/interfaces/ICourseChapter.ts",
-        "../node_modules/@types/mongoose/index.d.ts"
-      ],
-      "../src/core/resolvers/ContentType.resolver.ts": [
-        "../src/core/services/services.ts",
-        "../src/graphql/dto/courses/contentType.dto.ts",
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/auth/index.ts": [
-        "../src/auth/auth.module.ts",
-        "../src/auth/auth.resolver.ts",
-        "../src/auth/jwt-payload.interface.ts",
-        "../src/auth/service/auth.service.ts",
-        "../src/auth/service/user.service.ts"
-      ],
-      "../src/core/resolvers/User.resolver.ts": [
-        "../src/auth/index.ts",
-        "../src/graphql/dto/actors/user.dto.ts",
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/auth/jwt.strategy.ts": [
+      "../src/modules/auth/jwt.strategy.ts": [
         "../node_modules/@types/passport-jwt/index.d.ts",
-        "../src/auth/service/auth.service.ts",
+        "../src/modules/auth/service/auth.service.ts",
         "../src/config/config.service.ts"
       ],
-      "../src/auth/auth.resolver.ts": [
+      "../src/modules/auth/auth.resolver.ts": [
         "../node_modules/@types/express/index.d.ts",
         "../node_modules/@nestjs/jwt/index.d.ts",
-        "../src/auth/service/user.service.ts",
         "../src/shared/dto/loginUser.dto.ts",
-        "../src/auth/service/auth.service.ts",
+        "../src/modules/database/index.ts",
+        "../src/modules/auth/service/auth.service.ts",
         "../src/shared/dto/create/ createUser.dto.ts",
-        "../src/graphql/index.ts",
-        "../src/shared/interfaces/ibaseModel.ts",
-        "../src/models/index.ts"
+        "../src/modules/core/graphql/types.ts",
+        "../src/shared/interfaces/ibaseModel.ts"
       ],
       "../src/shared/guards/graphql-auth.guard.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -12034,19 +11311,98 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/auth/service/auth.service.ts": [
-        "../src/auth/service/user.service.ts",
-        "../src/auth/jwt-payload.interface.ts",
+      "../src/modules/auth/service/auth.service.ts": [
+        "../src/modules/auth/jwt-payload.interface.ts",
         "../src/config/config.service.ts",
-        "../src/shared/dto/create/ createUser.dto.ts",
         "../src/shared/interfaces/ibaseModel.ts",
-        "../src/models/interfaces/index.ts"
-      ],
-      "../src/auth/service/user.service.ts": [
-        "../node_modules/@types/mongoose/index.d.ts",
         "../src/shared/dto/create/ createUser.dto.ts",
-        "../src/models/interfaces/index.ts",
-        "../src/shared/base.service.ts"
+        "../src/modules/database/index.ts"
+      ],
+      "../src/modules/database/services/services.ts": [
+        "../src/shared/base.service.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../src/modules/database/index.ts"
+      ],
+      "../src/modules/database/index.ts": [
+        "../src/modules/database/interface/interfaces.ts",
+        "../src/modules/database/schema/schemas.ts",
+        "../src/modules/database/seeder/seeder.ts",
+        "../src/modules/database/services/services.ts"
+      ],
+      "../src/modules/core/graphql/resolvers/user.resolver.ts": [
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
+        "../src/shared/interfaces/ibaseModel.ts"
+      ],
+      "../src/modules/core/graphql/resolvers/student.resolver.ts": [
+        "../src/modules/core/graphql/DTO/dtos.ts",
+        "../src/modules/database/index.ts",
+        "../src/shared/interfaces/ibaseModel.ts"
+      ],
+      "../src/modules/core/graphql/resolvers/role.resolver.ts": [
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
+        "../src/shared/interfaces/ibaseModel.ts"
+      ],
+      "../src/modules/core/graphql/resolvers/LearningProgress.resolver.ts": [
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
+        "../src/shared/interfaces/ibaseModel.ts"
+      ],
+      "../src/modules/core/graphql/resolvers/language.resolver.ts": [
+        "../src/modules/core/graphql/DTO/dtos.ts",
+        "../src/modules/database/index.ts",
+        "../src/shared/interfaces/ibaseModel.ts"
+      ],
+      "../src/modules/core/graphql/resolvers/instructor.resolver.ts": [
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
+        "../src/shared/interfaces/ibaseModel.ts"
+      ],
+      "../src/modules/core/graphql/resolvers/feedback.resolver.ts": [
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
+        "../src/shared/interfaces/ibaseModel.ts"
+      ],
+      "../src/modules/core/graphql/resolvers/enrollment.resolver.ts": [
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
+        "../src/shared/interfaces/ibaseModel.ts"
+      ],
+      "../src/modules/core/graphql/resolvers/courseLevel.resolver.ts": [
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
+        "../src/shared/interfaces/ibaseModel.ts"
+      ],
+      "../src/modules/core/graphql/resolvers/courseChapterContent.resolver.ts": [
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
+        "../src/shared/interfaces/ibaseModel.ts"
+      ],
+      "../src/modules/core/graphql/resolvers/courseChapter.resolver.ts": [
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
+        "../src/shared/interfaces/ibaseModel.ts",
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/modules/core/graphql/resolvers/contentType.resolver.ts": [
+        "../src/modules/core/graphql/DTO/dtos.ts",
+        "../src/modules/database/index.ts",
+        "../src/shared/interfaces/ibaseModel.ts"
+      ],
+      "../src/modules/core/graphql/resolvers/category.resolver.ts": [
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/DTO/dtos.ts",
+        "../src/shared/interfaces/ibaseModel.ts"
+      ],
+      "../src/modules/core/graphql/resolvers/course.resolver.ts": [
+        "../src/modules/database/index.ts",
+        "../src/modules/core/graphql/args/args.ts",
+        "../src/shared/interfaces/ibaseModel.ts",
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/modules/database/seeder/seeder.ts": [
+        "../src/modules/database/index.ts"
       ],
       "../src/shared/base.service.ts": [
         "../node_modules/@types/mongoose/index.d.ts",
@@ -14300,6 +13656,22 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../node_modules/@types/jsonwebtoken/index.d.ts": [
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/passport-jwt/index.d.ts": [
+        "../node_modules/@types/passport-strategy/index.d.ts",
+        "../node_modules/@types/express/index.d.ts",
+        "../node_modules/@types/jsonwebtoken/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../node_modules/graphql-subscriptions/dist/pubsub.d.ts": [
         "../node_modules/@types/node/events.d.ts",
         "../node_modules/graphql-subscriptions/dist/pubsub-engine.d.ts",
@@ -14330,65 +13702,8 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/graphql/dto/courses/courseLevel.dto.ts": [
-        "../src/graphql/models/courses/CourseLevel.ts"
-      ],
-      "../src/graphql/dto/courses/courseCategory.dto.ts": [
-        "../src/graphql/models/courses/courseCategory.ts"
-      ],
-      "../src/graphql/models/feedback submission/feedback.ts": [
-        "../src/shared/models/base.ts",
-        "../src/graphql/index.ts"
-      ],
-      "../src/graphql/index.ts": [
-        "../src/graphql/models/actors/user.ts",
-        "../src/graphql/models/actors/instructor.ts",
-        "../src/graphql/models/actors/student.ts",
-        "../src/graphql/models/courses/contentType.ts",
-        "../src/graphql/models/courses/course.ts",
-        "../src/graphql/models/courses/courseChapter.ts",
-        "../src/graphql/models/courses/courseChapterContent.ts",
-        "../src/graphql/models/courses/language.ts",
-        "../src/graphql/models/entrollment and progress/enrollement.ts",
-        "../src/graphql/models/entrollment and progress/learningProgress.ts",
-        "../src/graphql/models/feedback submission/feedback.ts"
-      ],
-      "../src/graphql/models/entrollment and progress/learningProgress.ts": [
-        "../src/graphql/models/entrollment and progress/enrollement.ts",
-        "../src/graphql/index.ts"
-      ],
-      "../src/graphql/models/entrollment and progress/enrollement.ts": [
-        "../src/shared/models/base.ts",
-        "../src/graphql/index.ts"
-      ],
-      "../src/graphql/models/courses/course.ts": [
-        "../src/shared/models/base.ts",
-        "../src/graphql/models/courses/language.ts",
-        "../src/graphql/index.ts",
-        "../src/graphql/models/courses/CourseLevel.ts",
-        "../src/graphql/models/courses/courseCategory.ts"
-      ],
-      "../src/graphql/models/courses/courseChapter.ts": [
-        "../src/shared/models/base.ts",
-        "../src/graphql/models/courses/course.ts"
-      ],
-      "../src/graphql/models/courses/courseChapterContent.ts": [
-        "../src/graphql/models/courses/courseChapter.ts"
-      ],
-      "../src/graphql/models/courses/language.ts": [
-        "../src/shared/models/base.ts"
-      ],
-      "../src/graphql/models/courses/contentType.ts": [
-        "../src/shared/models/base.ts"
-      ],
-      "../src/graphql/models/actors/student.ts": [
-        "../src/graphql/models/actors/user.ts"
-      ],
-      "../src/graphql/models/actors/instructor.ts": [
-        "../src/graphql/models/actors/user.ts"
-      ],
-      "../src/graphql/models/actors/user.ts": [
-        "../src/shared/models/base.ts"
+      "../src/modules/core/graphql/args/args.ts": [
+        "../src/shared/args/base.arg.ts"
       ],
       "../src/shared/interfaces/ibaseService.ts": [
         "../src/shared/interfaces/ibaseModel.ts",
@@ -14538,22 +13853,6 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/@types/jsonwebtoken/index.d.ts": [
-        "../node_modules/@types/node/ts3.2/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/@types/passport-jwt/index.d.ts": [
-        "../node_modules/@types/passport-strategy/index.d.ts",
-        "../node_modules/@types/express/index.d.ts",
-        "../node_modules/@types/jsonwebtoken/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "../node_modules/@types/mongoose/index.d.ts": [
         "../node_modules/@types/node/events.d.ts",
         "../node_modules/@types/mongodb/index.d.ts",
@@ -14565,106 +13864,14 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/models/schemas/courseCategorySchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts"
-      ],
-      "../src/models/schemas/courseLevelSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts"
-      ],
-      "../src/models/interfaces/ICourseChapter.ts": [
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/models/schemas/userSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts"
-      ],
-      "../src/models/schemas/index.ts": [
-        "../src/models/schemas/contentTypeSchema.ts",
-        "../src/models/schemas/courseChapterContentSchema.ts",
-        "../src/models/schemas/courseChapterSchema.ts",
-        "../src/models/schemas/courseSchema.ts",
-        "../src/models/schemas/enrollmentSchema.ts",
-        "../src/models/schemas/feedbackSchema.ts",
-        "../src/models/schemas/instructorSchema.ts",
-        "../src/models/schemas/languageSchema.ts",
-        "../src/models/schemas/learningProgressSchema.ts",
-        "../src/models/schemas/studentSchema.ts",
-        "../src/models/schemas/userSchema.ts"
-      ],
-      "../src/models/index.ts": [
-        "../src/models/interfaces/index.ts",
-        "../src/models/schemas/index.ts"
-      ],
-      "../src/models/schemas/studentSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts"
-      ],
-      "../src/models/schemas/learningProgressSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts"
-      ],
-      "../src/models/schemas/languageSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts"
-      ],
-      "../src/models/schemas/instructorSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts"
-      ],
-      "../src/models/schemas/feedbackSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts"
-      ],
-      "../src/models/schemas/enrollmentSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts"
-      ],
-      "../src/models/schemas/courseSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts"
-      ],
-      "../src/models/schemas/courseChapterSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts"
-      ],
-      "../src/models/schemas/courseChapterContentSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts"
-      ],
-      "../src/models/schemas/contentTypeSchema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts"
-      ],
       "../src/shared/interfaces/ibaseModel.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
       ],
-      "../src/models/interfaces/ICourseLevel.ts": [
+      "../src/modules/database/interface/interfaces.ts": [
         "../src/shared/interfaces/ibaseModel.ts"
       ],
-      "../src/models/interfaces/ICourseCategory.ts": [
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/models/interfaces/IFeedback.ts": [
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/models/interfaces/ICourseChapterContent.ts": [
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/models/interfaces/IStudent.ts": [
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/models/interfaces/ILearningProgress.ts": [
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/models/interfaces/ILanguage.ts": [
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/models/interfaces/IInstructor.ts": [
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/models/interfaces/IEnrollment.ts": [
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/models/interfaces/ICourse.ts": [
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/models/interfaces/IContentType.ts": [
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/models/interfaces/iuser.ts": [
-        "../src/shared/interfaces/ibaseModel.ts"
-      ],
-      "../src/models/interfaces/index.ts": [
-        "../src/models/interfaces/iuser.ts"
+      "../src/modules/database/schema/schemas.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
       ],
       "../node_modules/@types/mongodb/index.d.ts": [
         "../node_modules/@types/bson/index.d.ts",

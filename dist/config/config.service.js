@@ -16,6 +16,7 @@ class ConfigService {
                 .default('app'),
             PORT: Joi.number().default(3000),
             DATABASE_URL: Joi.string().required(),
+            LOCAL_DB: Joi.string().required(),
             JWT_SECRET_KEY: Joi.string().required(),
         });
         const { error, value: validatedEnvConfig } = envVarsSchema.validate(envConfig);
@@ -26,6 +27,9 @@ class ConfigService {
     }
     get databaseUrl() {
         return String(this.envConfig.DATABASE_URL);
+    }
+    get localDbUrl() {
+        return String(this.envConfig.LOCAL_DB);
     }
     get jwtSecret() {
         return String(this.envConfig.JWT_SECRET_KEY);

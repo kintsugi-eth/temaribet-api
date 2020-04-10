@@ -17,7 +17,7 @@ let MongooseConfigService = class MongooseConfigService {
     }
     createMongooseOptions() {
         return {
-            uri: this.configService.databaseUrl,
+            uri: this.configService.localDbUrl,
             useUnifiedTopology: true,
             useNewUrlParser: true,
             useCreateIndex: true,
