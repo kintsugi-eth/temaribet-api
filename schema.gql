@@ -3,34 +3,53 @@
 # !!!   DO NOT MODIFY THIS FILE BY YOURSELF   !!!
 # -----------------------------------------------
 
+type Category {
+  name: String!
+  slug: String!
+  icon: String!
+  isActive: Boolean!
+  parent: String!
+}
+
+input CategoryDto {
+  name: String!
+  slug: String!
+  icon: String!
+  isActive: Boolean!
+  parent: String!
+}
+
 type ContentType {
-  typeOfContent: String!
-}
-
-input ContentTypeDto {
-  typeOfContent: String!
-}
-
-type Course {
-  title: String!
-  description: String!
-  instructor: Instructor!
-  courseLevel: CourseLevel!
-  courseCategory: CourseCategory!
-  rate: Float!
-  numOfChapters: Float!
-  courseFee: Float!
-  language: Language!
-  courseChapters: [CourseChapter!]!
-}
-
-type CourseCategory {
   name: String!
 }
 
+input ContentTypeDto {
+  name: String!
+}
+
+type Course {
+  instructor: Instructor!
+  category: Category!
+  courseLevel: CourseLevel!
+  courseTitle: String!
+  courseSlug: String!
+  keywords: [String!]!
+  overview: String!
+  courseImage: String!
+  language: Language!
+  duration: String!
+  price: Float!
+  rate: Float!
+  rateCount: Float!
+  strikeOutPrice: Float!
+  isActive: Boolean!
+  courseChapter: CourseChapter!
+}
+
 type CourseChapter {
-  course: Course!
+  course: String!
   title: String!
+  order: Float!
   numOfReading: Float!
   numOfVideo: Float!
   numOfAssignment: Float!
@@ -39,41 +58,60 @@ type CourseChapter {
 
 type CourseChapterContent {
   order: Float!
-  courseChapter: CourseChapter!
+  description: String!
+  title: String!
+  courseChapter: String!
+  contentType: String!
   isMandatory: Boolean!
   timeRequiredInSec: Float!
   isOpenForFree: Boolean!
+  duration: Float!
 }
 
 input CourseChapterContentDto {
   order: Float!
+  description: String!
+  title: String!
   courseChapter: String!
+  contentType: String!
   isMandatory: Boolean!
   timeRequiredInSec: Float!
   isOpenForFree: Boolean!
+  duration: Float!
 }
 
 input CourseChapterDto {
   course: String!
   title: String!
+  order: Float!
   numOfReading: Float!
   numOfVideo: Float!
   numOfAssignment: Float!
 }
 
 input CourseDto {
-  title: String!
-  description: String!
   instructor: String!
+  category: String!
   courseLevel: String!
-  courseCategory: String!
-  rate: Float!
-  numOfChapters: Float!
-  courseFee: Float!
+  courseTitle: String!
+  courseSlug: String!
+  keywords: [String!]!
+  overview: String!
+  courseImage: String!
   language: String!
+  duration: String!
+  price: Float!
+  rate: Float!
+  rateCount: Float!
+  strikeOutPrice: Float!
+  isActive: Boolean!
 }
 
 type CourseLevel {
+  name: String!
+}
+
+input CourseLevelDto {
   name: String!
 }
 
@@ -91,50 +129,80 @@ type Deleted {
   deletedCount: Float!
 }
 
-type Enrollement {
-  student: Student!
-  course: Course!
-  isPaidSubscription: Boolean!
+type Enrollment {
+  enrollment: String!
+  courseChapterContent: String!
+  beginTimestamp: String!
+  completionTimestamp: String!
+  status: Boolean!
 }
 
-input EnrollementDto {
-  student: String!
-  course: String!
-  isPaidSubscription: Boolean!
+input EnrollmentDto {
+  enrollment: String!
+  courseChapterContent: String!
+  beginTimestamp: String!
+  completionTimestamp: String!
+  status: Boolean!
 }
 
 type Feedback {
-  enrollment: Enrollement!
-  ratingScore: Float!
-  feedbackText: String!
+  student: String!
+  course: String!
+  isPaidSubscription: String!
 }
 
 input FeedbackDto {
-  enrollment: String!
-  ratingScore: Float!
-  feedbackText: String!
+  student: String!
+  course: String!
+  isPaidSubscription: String!
+}
+
+type File {
+  path: String!
+  filename: String!
+  mimetype: String!
+  uploader: String!
+}
+
+input FileDto {
+  path: String!
+  filename: String!
+  mimetype: String!
+  uploader: String!
 }
 
 type Instructor {
-  user: User!
+  user: String!
+  instructorSlug: String!
+  contactEmail: String!
+  mobile: String!
+  linkFacebook: String!
+  linkLinkedin: String!
+  linkTwitter: String!
   qualification: String!
   introductionBrief: String!
-  image: String!
-  numOfPublishedCourses: Float
-  numOfEnrolledStudents: Float
-  averageReviewRating: Float
-  numOfReview: Float
+  profileImage: String!
+  numOfPublishedCourses: Float!
+  numOfEnrolledStudents: Float!
+  averageReviewRating: Float!
+  numOfReview: Float!
 }
 
 input InstructorDto {
   user: String!
+  instructorSlug: String!
+  contactEmail: String!
+  mobile: String!
+  linkFacebook: String!
+  linkLinkedin: String!
+  linkTwitter: String!
   qualification: String!
   introductionBrief: String!
-  image: String!
-  numOfPublishedCourses: Float = 0
-  numOfEnrolledStudents: Float = 0
-  averageReviewRating: Float = 0
-  numOfReview: Float = 0
+  profileImage: String!
+  numOfPublishedCourses: Float!
+  numOfEnrolledStudents: Float!
+  averageReviewRating: Float!
+  numOfReview: Float!
 }
 
 type Language {
@@ -146,8 +214,8 @@ input LanguageDto {
 }
 
 type LearningProgress {
-  enrollment: Enrollement!
-  courseChapterContent: CourseChapterContent!
+  enrollment: String!
+  courseChapterContent: String!
   beginTimestamp: String!
   completionTimestamp: String!
   status: Boolean!
@@ -169,20 +237,22 @@ input LoginUserDto {
 type Mutation {
   login(loginInput: LoginUserDto!): User!
   signup(signUpInput: CreateUserDto!): User!
+  createCourseCategory(categoryInput: CategoryDto!): Category!
+  updateCourseCategory(categoryInput: CategoryDto!, id: String!): Category!
+  deleteCourse(id: String!): Deleted!
   createContentType(contentTypeInput: ContentTypeDto!): ContentType!
   updateContentType(contentTypeInput: ContentTypeDto!, id: String!): ContentType!
   deleteContentType(id: String!): Deleted!
-  createCourse(courseInput: CourseDto!): Course!
-  updateCourse(courseInput: CourseDto!, id: String!): Course!
-  deleteCourse(id: String!): Deleted!
   createCourseChapter(courseChapterInput: CourseChapterDto!): CourseChapter!
   updateCourseChapter(courseChapterInput: CourseChapterDto!, id: String!): CourseChapter!
   deleteCourseChapter(id: String!): Deleted!
   createCourseChapterContent(createCourseChapterContentInput: CourseChapterContentDto!): CourseChapterContent!
   updateCourseChapterContent(updateCourseChapterContentInput: CourseChapterContentDto!, id: String!): CourseChapterContent!
   deleteCourseChapterContent(id: String!): Deleted!
-  createEnrollment(enrollmentInput: EnrollementDto!): Enrollement!
-  updateEnrollment(enrollmentInput: EnrollementDto!, id: String!): Enrollement!
+  createCourseLevel(courseLevelInput: CourseLevelDto!): CourseLevel!
+  updateCourseLevel(courseLevelInput: CourseLevelDto!, id: String!): CourseLevel!
+  createEnrollment(enrollmentInput: EnrollmentDto!): Enrollment!
+  updateEnrollment(enrollmentInput: EnrollmentDto!, id: String!): Enrollment!
   deleteEnrollment(id: String!): Deleted!
   createFeedback(feedbackInput: FeedbackDto!): Feedback!
   updateFeedback(feedbackInput: FeedbackDto!, id: String!): Feedback!
@@ -196,6 +266,9 @@ type Mutation {
   createLearningProgress(learningProgressInput: LearningProgressDto!): LearningProgress!
   updateLearningProgress(learningProgressInput: LearningProgressDto!, id: String!): LearningProgress!
   deleteLearningProgress(id: String!): Deleted!
+  createRole(roleInput: RoleDto!): Language!
+  updateRole(roleInput: RoleDto!, id: String!): Language!
+  deleteRole(id: String!): Deleted!
   createStudent(studentInput: StudentDto!): Student!
   updateStudent(studentInput: StudentDto!, id: String!): Student!
   deleteStudent(id: String!): Deleted!
@@ -207,16 +280,20 @@ type Mutation {
 type Query {
   users: [User!]!
   me: User!
+  allCourses(skip: Int = 0, take: Int = 25, instructor: String, category: String, level: String, language: String, sortByTime: String, sortByRate: String): [Course!]!
+  findCourse(id: String!): Course!
+  courseCategories: [Category!]!
+  courseCategory(id: String!): Category!
   contentTypes: [ContentType!]!
   contentType(id: String!): ContentType!
-  courses: [Course!]!
-  course(id: String!): Course!
   courseChapters: [CourseChapter!]!
   courseChapter(id: String!): CourseChapter!
   courseChapterContents: [CourseChapterContent!]!
   courseChapterContent(id: String!): CourseChapterContent!
-  enrollments: [Enrollement!]!
-  enrollment(id: String!): Enrollement!
+  courseLevels: [CourseLevel!]!
+  courseLevel(id: String!): CourseLevel!
+  enrollments: [Enrollment!]!
+  enrollment(id: String!): Enrollment!
   feedbacks: [Feedback!]!
   feedback(id: String!): Feedback!
   instructors: [Instructor!]!
@@ -225,33 +302,58 @@ type Query {
   language(id: String!): Language!
   learningProgresses: [LearningProgress!]!
   learningProgress(id: String!): LearningProgress!
+  roles: [Language!]!
+  role(id: String!): Language!
   students: [Student!]!
   student(id: String!): Student!
   user(id: String!): User!
 }
 
+type Role {
+  name: String!
+  description: String!
+}
+
+input RoleDto {
+  name: String!
+  description: String!
+}
+
 type Student {
-  user: User!
-  numOfCoursesEnrolled: Float
-  numOfCourseCompleted: Float
+  user: String!
+  profileImage: String!
+  contactEmail: String!
+  dob: String!
+  numOfCoursesEnrolled: Float!
+  numOfCourseCompleted: Float!
 }
 
 input StudentDto {
   user: String!
-  numOfCoursesEnrolled: Float = 0
-  numOfCourseCompleted: Float = 0
+  profileImage: String!
+  contactEmail: String!
+  dob: String!
+  numOfCoursesEnrolled: Float!
+  numOfCourseCompleted: Float!
 }
 
 type User {
   firstName: String!
   lastName: String!
-  username: String!
-  role: String
+  email: String!
+  role: String!
+  isActive: String!
 }
 
 input UserDto {
   firstName: String!
   lastName: String!
-  username: String!
-  role: String
+  email: String!
+  role: String!
+  isActive: String!
+}
+
+type WishList {
+  course: String!
+  user: String!
 }
