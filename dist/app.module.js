@@ -18,7 +18,6 @@ const database_module_1 = require("./modules/database/database.module");
 const auth_1 = require("./modules/auth");
 const core_module_1 = require("./modules/core/core.module");
 const email_scalar_1 = require("./shared/scalars/email.scalar");
-const platform_express_1 = require("@nestjs/platform-express");
 const cloudinary_service_1 = require("./modules/file-upload/cloudinary.service");
 let AppModule = class AppModule {
 };
@@ -31,9 +30,6 @@ AppModule = __decorate([
             database_module_1.DatabaseModule,
             auth_1.AuthModule,
             core_module_1.CoreModule,
-            platform_express_1.MulterModule.register({
-                dest: __dirname + 'upload',
-            }),
         ],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService, mongoose_config_service_1.MongooseConfigService, email_scalar_1.EmailScalar, cloudinary_service_1.CloudinaryService],
