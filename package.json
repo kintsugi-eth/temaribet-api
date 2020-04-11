@@ -66,8 +66,5 @@
     "tsconfig-paths": "^3.9.0",
     "tslint": "^5.20.0",
     "typescript": "^3.6.3"
-  },
-  "engines": {
-    "node": "12"
-  },
+  }
 }
