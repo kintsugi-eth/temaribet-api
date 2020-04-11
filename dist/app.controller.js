@@ -8,16 +8,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const app_service_1 = require("./app.service");
-const platform_express_1 = require("@nestjs/platform-express");
 const path = require("path");
-const multer_1 = require("multer");
-const path_1 = require("path");
 const cloudinary_service_1 = require("./modules/file-upload/cloudinary.service");
 const database_1 = require("./modules/database");
 const pngFileFilter = (req, file, callback) => {
@@ -37,20 +31,6 @@ let AppController = class AppController {
     getHello() {
         return this.appService.getHello();
     }
-    uploadAvatar(file) {
-        return new Promise((resolve, reject) => {
-            this.cs.fileUpload(__dirname + '/../' + file.path, async (error, result) => {
-                if (error) {
-                    reject(error);
-                }
-                resolve(await this.fileService.createOne({
-                    path: result.url,
-                    filename: file.originalname,
-                    mimetype: file.mimetype,
-                }));
-            });
-        });
-    }
 };
 __decorate([
     common_1.Get(),
@@ -58,22 +38,6 @@ __decorate([
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", String)
 ], AppController.prototype, "getHello", null);
-__decorate([
-    common_1.Post('upload'),
-    common_1.UseInterceptors(platform_express_1.FileInterceptor('file', {
-        storage: multer_1.diskStorage({
-            destination: './uploads',
-            filename: (req, file, cb) => {
-                const randomName = Array(32).fill(null).map(() => (Math.round(Math.random() * 16)).toString(16)).join('');
-                return cb(null, `${randomName}${path_1.extname(file.originalname)}`);
-            },
-        }),
-    })),
-    __param(0, common_1.UploadedFile()),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", void 0)
-], AppController.prototype, "uploadAvatar", null);
 AppController = __decorate([
     common_1.Controller(),
     __metadata("design:paramtypes", [app_service_1.AppService,

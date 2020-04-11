@@ -7,5 +7,4 @@ export declare class AppController {
     private fileService;
     constructor(appService: AppService, cs: CloudinaryService, fileService: FileService);
     getHello(): string;
-    uploadAvatar(file: any): Promise<unknown>;
 }

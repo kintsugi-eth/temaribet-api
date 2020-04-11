@@ -1,1 +1,1 @@
-{"version":3,"file":"jwt-payload.interface.js","sourceRoot":"","sources":["../../../src/modules/auth/jwt-payload.interface.ts"],"names":[],"mappings":""}
+{"version":3,"file":"jwt-payload.interface.js","sourceRoot":"","sources":["../../../../api/src/modules/auth/jwt-payload.interface.ts"],"names":[],"mappings":""}

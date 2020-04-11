@@ -1,1 +1,1 @@
-{"version":3,"file":"role.js","sourceRoot":"","sources":["../../../src/shared/types/role.ts"],"names":[],"mappings":";;AAAA,IAAY,IAMX;AAND,WAAY,IAAI;IACd,uBAAe,CAAA;IACf,2BAAmB,CAAA;IACnB,6BAAqB,CAAA;IACrB,uBAAe,CAAA;IACf,+BAAuB,CAAA;AACzB,CAAC,EANW,IAAI,GAAJ,YAAI,KAAJ,YAAI,QAMf"}
+{"version":3,"file":"role.js","sourceRoot":"","sources":["../../../../api/src/shared/types/role.ts"],"names":[],"mappings":";;AAAA,IAAY,IAMX;AAND,WAAY,IAAI;IACd,uBAAe,CAAA;IACf,2BAAmB,CAAA;IACnB,6BAAqB,CAAA;IACrB,uBAAe,CAAA;IACf,+BAAuB,CAAA;AACzB,CAAC,EANW,IAAI,GAAJ,YAAI,KAAJ,YAAI,QAMf"}
