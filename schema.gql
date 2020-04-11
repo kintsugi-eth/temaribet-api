@@ -129,6 +129,9 @@ type Deleted {
   deletedCount: Float!
 }
 
+"""Email Custom Scalar type"""
+scalar Email
+
 type Enrollment {
   enrollment: String!
   courseChapterContent: String!
@@ -172,7 +175,7 @@ input FileDto {
 }
 
 type Instructor {
-  user: String!
+  user: User!
   instructorSlug: String!
   contactEmail: String!
   mobile: String!
@@ -340,7 +343,7 @@ input StudentDto {
 type User {
   firstName: String!
   lastName: String!
-  email: String!
+  email: Email!
   role: String!
   isActive: String!
 }

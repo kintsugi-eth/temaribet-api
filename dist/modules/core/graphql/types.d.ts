@@ -1,3 +1,4 @@
+import { EmailScalar } from '../../../shared/scalars/email.scalar';
 export declare class Category {
     name: string;
     slug: string;
@@ -14,8 +15,15 @@ export declare class Language {
 export declare class ContentType {
     name: string;
 }
+export declare class User {
+    firstName: string;
+    lastName: string;
+    email: EmailScalar;
+    role: string;
+    isActive: string;
+}
 export declare class Instructor {
-    user: string;
+    user: User;
     instructorSlug: string;
     contactEmail: string;
     mobile: string;
@@ -102,13 +110,6 @@ export declare class LearningProgress {
 export declare class Role {
     name: string;
     description: string;
-}
-export declare class User {
-    firstName: string;
-    lastName: string;
-    email: string;
-    role: string;
-    isActive: string;
 }
 export declare class WishList {
     course: string;

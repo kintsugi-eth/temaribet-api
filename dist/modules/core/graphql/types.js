@@ -10,6 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const type_graphql_1 = require("type-graphql");
+const email_scalar_1 = require("../../../shared/scalars/email.scalar");
 let Category = class Category {
 };
 __decorate([
@@ -66,11 +67,37 @@ ContentType = __decorate([
     type_graphql_1.ObjectType()
 ], ContentType);
 exports.ContentType = ContentType;
-let Instructor = class Instructor {
+let User = class User {
 };
 __decorate([
     type_graphql_1.Field(),
     __metadata("design:type", String)
+], User.prototype, "firstName", void 0);
+__decorate([
+    type_graphql_1.Field(),
+    __metadata("design:type", String)
+], User.prototype, "lastName", void 0);
+__decorate([
+    type_graphql_1.Field(),
+    __metadata("design:type", email_scalar_1.EmailScalar)
+], User.prototype, "email", void 0);
+__decorate([
+    type_graphql_1.Field(),
+    __metadata("design:type", String)
+], User.prototype, "role", void 0);
+__decorate([
+    type_graphql_1.Field(),
+    __metadata("design:type", String)
+], User.prototype, "isActive", void 0);
+User = __decorate([
+    type_graphql_1.ObjectType()
+], User);
+exports.User = User;
+let Instructor = class Instructor {
+};
+__decorate([
+    type_graphql_1.Field(returns => User),
+    __metadata("design:type", User)
 ], Instructor.prototype, "user", void 0);
 __decorate([
     type_graphql_1.Field(),
@@ -402,32 +429,6 @@ Role = __decorate([
     type_graphql_1.ObjectType()
 ], Role);
 exports.Role = Role;
-let User = class User {
-};
-__decorate([
-    type_graphql_1.Field(),
-    __metadata("design:type", String)
-], User.prototype, "firstName", void 0);
-__decorate([
-    type_graphql_1.Field(),
-    __metadata("design:type", String)
-], User.prototype, "lastName", void 0);
-__decorate([
-    type_graphql_1.Field(),
-    __metadata("design:type", String)
-], User.prototype, "email", void 0);
-__decorate([
-    type_graphql_1.Field(),
-    __metadata("design:type", String)
-], User.prototype, "role", void 0);
-__decorate([
-    type_graphql_1.Field(),
-    __metadata("design:type", String)
-], User.prototype, "isActive", void 0);
-User = __decorate([
-    type_graphql_1.ObjectType()
-], User);
-exports.User = User;
 let WishList = class WishList {
 };
 __decorate([

@@ -167,7 +167,7 @@
   "courses": [
     {
       "_id": "5e8b50a1e7a2d4e57908b167",
-      "instructor": "5e8b504047ac56c7fe052c4e",
+      "instructor": "5e8b52d9b010ae29e3459f52",
       "category": "5e8b4f7dd9206a63b4c56a75",
       "courseLevel": "5e8b4fd4ad82bff1fb0436e0",
       "courseTitle": "Computer Science 101: Master the Theory Behind Programming",

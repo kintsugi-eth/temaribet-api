@@ -15,3 +15,6 @@ export declare const learningProgressSchema: Schema<any>;
 export declare const roleSchema: Schema<any>;
 export declare const userSchema: Schema<any>;
 export declare const wishListSchema: Schema<any>;
+export declare const quizSchema: Schema<any>;
+export declare const questionTypeSchema: Schema<any>;
+export declare const questionSchema: Schema<any>;

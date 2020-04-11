@@ -79,7 +79,6 @@ export interface IFile extends IbaseModel {
     path: string;
     filename: string;
     mimetype: string;
-    uploader: string;
 }
 export interface IFeedback extends IbaseModel {
     enrollment: string;

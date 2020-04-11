@@ -14,13 +14,14 @@ const graphql_2 = require("graphql");
 let EmailScalar = class EmailScalar {
     constructor() {
         this.description = 'Email Custom Scalar type';
+        this.emailReg = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
         this.emailReg = new RegExp(/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/);
     }
     parseLiteral(ast) {
         if (ast.kind !== graphql_2.Kind.STRING) {
             throw new graphql_2.GraphQLError(`Can only validate strings as email addresses but got a: ${ast.kind}`);
         }
-        if (!this.emailReg.text(ast.value)) {
+        if (!this.emailReg.exec(ast.value)) {
             throw new TypeError('Value is not valid email address');
         }
         return undefined;
@@ -29,7 +30,7 @@ let EmailScalar = class EmailScalar {
         if (typeof value !== 'string') {
             throw new TypeError('Value is not string');
         }
-        if (!this.emailReg.text(value)) {
+        if (!this.emailReg.exec(value)) {
             throw new TypeError('Value is not valid email address');
         }
         return value;
@@ -38,7 +39,7 @@ let EmailScalar = class EmailScalar {
         if (typeof value !== 'string') {
             throw new TypeError('Value is not string');
         }
-        if (!this.emailReg.text(value)) {
+        if (!this.emailReg.exec(value)) {
             throw new TypeError('Value is not valid email address');
         }
         return value;

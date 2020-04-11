@@ -10,7 +10,6 @@ const common_1 = require("@nestjs/common");
 const schemas_1 = require("./schema/schemas");
 const mongoose_1 = require("@nestjs/mongoose");
 const services_1 = require("./services/services");
-const seeder_1 = require("./seeder/seeder");
 const services = [
     services_1.CategoryService,
     services_1.ContentTypeService,
@@ -27,7 +26,6 @@ const services = [
     services_1.RoleService,
     services_1.StudentService,
     services_1.UserService,
-    seeder_1.Seeder,
 ];
 const models = [
     { name: 'ContentType', schema: schemas_1.contentTypeSchema },

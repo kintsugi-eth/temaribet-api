@@ -17,11 +17,11 @@ __decorate([
     __metadata("design:type", String)
 ], Base.prototype, "_id", void 0);
 __decorate([
-    type_graphql_1.Field(),
+    type_graphql_1.Field(returns => type_graphql_1.GraphQLTimestamp),
     __metadata("design:type", String)
 ], Base.prototype, "createdAt", void 0);
 __decorate([
-    type_graphql_1.Field(),
+    type_graphql_1.Field(returns => type_graphql_1.GraphQLTimestamp),
     __metadata("design:type", String)
 ], Base.prototype, "updatedAt", void 0);
 exports.Base = Base;

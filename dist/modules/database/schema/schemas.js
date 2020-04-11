@@ -54,7 +54,7 @@ exports.courseSchema = new mongoose_1.Schema({
     duration: { type: String },
     price: { type: Number },
     rate: { type: Number },
-    rate_count: { type: Number },
+    rateCount: { type: Number },
     strike_out_price: { type: Number },
     isActive: { type: Boolean },
 }, { timestamps: true });
@@ -81,7 +81,6 @@ exports.fileSchema = new mongoose_1.Schema({
     path: { type: String },
     filename: { type: String },
     mimetype: { type: String },
-    uploader: { type: mongoose_1.Schema.Types.ObjectId, ref: 'User' },
 }, { timestamps: true });
 exports.feedbackSchema = new mongoose_1.Schema({
     enrollment: { type: mongoose_1.Schema.Types.ObjectId, ref: 'Enrollment', required: true },
@@ -133,4 +132,17 @@ exports.wishListSchema = new mongoose_1.Schema({
     course: { type: String },
     user: { type: String },
 }, { timestamps: true });
+exports.quizSchema = new mongoose_1.Schema({
+    name: { type: String },
+    description: { type: String },
+});
+exports.questionTypeSchema = new mongoose_1.Schema({
+    name: { type: String },
+});
+exports.questionSchema = new mongoose_1.Schema({
+    quiz: { type: mongoose_1.Schema.Types.ObjectId, ref: 'Quiz' },
+    type: { type: mongoose_1.Schema.Types.ObjectId, ref: 'QuestionType' },
+    text: { type: String },
+    options: { type: Array },
+});
 //# sourceMappingURL=schemas.js.map

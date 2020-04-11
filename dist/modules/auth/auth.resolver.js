@@ -37,7 +37,7 @@ let AuthResolver = class AuthResolver {
         if (!user) {
             throw Error('username or password incorrect');
         }
-        const valid = await bcryptjs.compare(loginInput.password, user['password']);
+        const valid = await bcryptjs.compare(loginInput.password, user.password);
         if (!valid) {
             throw Error('username or password incorrect');
         }

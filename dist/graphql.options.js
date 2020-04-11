@@ -23,6 +23,9 @@ let GraphqlOptions = class GraphqlOptions {
                 credentials: true,
                 origin: true,
             },
+            buildSchemaOptions: {
+                dateScalarMode: 'timestamp',
+            },
         };
     }
 };
