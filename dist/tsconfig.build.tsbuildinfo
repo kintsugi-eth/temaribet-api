@@ -3433,7 +3433,7 @@
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644"
       },
       "../src/main.ts": {
-        "version": "e719dd84090cb6757d53f5ff734adf990a04b3a4689b5ad146b5ac861d793b0e",
+        "version": "0e90bcb52c80273ed19e57f3105d96cb0055aebc92bbcdc6f32fd839024866da",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
       },
       "../src/modules/core/graphql/resolvers/file.resolver.ts": {
